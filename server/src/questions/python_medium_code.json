@@ -1,0 +1,812 @@
+[
+  {
+    "id": "python_medium_code_01",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne le carré d'un nombre.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def square(n):\n    # Votre code ici\n    pass",
+    "tests": [
+      {
+        "input": "square(2)",
+        "expected": "4",
+        "description": "2²"
+      },
+      {
+        "input": "square(5)",
+        "expected": "25",
+        "description": "5²"
+      },
+      {
+        "input": "square(0)",
+        "expected": "0",
+        "description": "0²"
+      }
+    ],
+    "maxLines": 12
+  },
+  {
+    "id": "python_medium_code_02",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne le maximum de deux nombres.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def max_of_two(a, b):\n    # Votre code ici\n    pass",
+    "tests": [
+      {
+        "input": "max_of_two(3, 5)",
+        "expected": "5",
+        "description": "max(3, 5)"
+      },
+      {
+        "input": "max_of_two(10, 2)",
+        "expected": "10",
+        "description": "max(10, 2)"
+      },
+      {
+        "input": "max_of_two(0, 0)",
+        "expected": "0",
+        "description": "max(0, 0)"
+      }
+    ],
+    "maxLines": 12
+  },
+  {
+    "id": "python_medium_code_03",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le PGCD de deux entiers positifs. La fonction doit s'appeler gcd.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def gcd(a, b):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "gcd(12, 18)",
+        "expected": "6",
+        "description": "PGCD(12,18)"
+      },
+      {
+        "input": "gcd(100, 25)",
+        "expected": "25",
+        "description": "PGCD(100,25)"
+      },
+      {
+        "input": "gcd(17, 13)",
+        "expected": "1",
+        "description": "nombres premiers entre eux"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_04",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le PPCM de deux entiers positifs. La fonction doit s'appeler lcm.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def lcm(a, b):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "lcm(4, 6)",
+        "expected": "12",
+        "description": "PPCM(4,6)"
+      },
+      {
+        "input": "lcm(5, 7)",
+        "expected": "35",
+        "description": "PPCM(5,7)"
+      },
+      {
+        "input": "lcm(3, 9)",
+        "expected": "9",
+        "description": "PPCM(3,9)"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_05",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le n-ieme terme de Fibonacci (F0=0, F1=1). La fonction doit s'appeler fibonacci.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def fibonacci(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "fibonacci(0)",
+        "expected": "0",
+        "description": "F0"
+      },
+      {
+        "input": "fibonacci(7)",
+        "expected": "13",
+        "description": "F7"
+      },
+      {
+        "input": "fibonacci(10)",
+        "expected": "55",
+        "description": "F10"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_06",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne la somme des chiffres d'un entier (en valeur absolue). La fonction doit s'appeler sum_digits.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def sum_digits(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "sum_digits(1234)",
+        "expected": "10",
+        "description": "1+2+3+4"
+      },
+      {
+        "input": "sum_digits(-909)",
+        "expected": "18",
+        "description": "9+0+9"
+      },
+      {
+        "input": "sum_digits(0)",
+        "expected": "0",
+        "description": "0"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_07",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n est premier, sinon 0. La fonction doit s'appeler is_prime_int.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def is_prime_int(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "is_prime_int(2)",
+        "expected": "1",
+        "description": "2 premier"
+      },
+      {
+        "input": "is_prime_int(9)",
+        "expected": "0",
+        "description": "9 non premier"
+      },
+      {
+        "input": "is_prime_int(29)",
+        "expected": "1",
+        "description": "29 premier"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_08",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le plus petit nombre premier strictement superieur a n. La fonction doit s'appeler next_prime.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def next_prime(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "next_prime(3)",
+        "expected": "5",
+        "description": "apres 3"
+      },
+      {
+        "input": "next_prime(14)",
+        "expected": "17",
+        "description": "apres 14"
+      },
+      {
+        "input": "next_prime(29)",
+        "expected": "31",
+        "description": "apres 29"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_09",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui calcule base^exp avec exp >= 0. La fonction doit s'appeler power_int.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def power_int(base, exp):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "power_int(2, 5)",
+        "expected": "32",
+        "description": "2^5"
+      },
+      {
+        "input": "power_int(7, 0)",
+        "expected": "1",
+        "description": "puissance zero"
+      },
+      {
+        "input": "power_int(3, 3)",
+        "expected": "27",
+        "description": "3^3"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_10",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de diviseurs positifs de n (n > 0). La fonction doit s'appeler count_divisors.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def count_divisors(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "count_divisors(1)",
+        "expected": "1",
+        "description": "diviseurs de 1"
+      },
+      {
+        "input": "count_divisors(12)",
+        "expected": "6",
+        "description": "1,2,3,4,6,12"
+      },
+      {
+        "input": "count_divisors(13)",
+        "expected": "2",
+        "description": "premier"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_11",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne l'entier obtenu en inversant les chiffres d'un nombre positif. La fonction doit s'appeler reverse_number.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def reverse_number(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "reverse_number(1234)",
+        "expected": "4321",
+        "description": "inverse"
+      },
+      {
+        "input": "reverse_number(900)",
+        "expected": "9",
+        "description": "zeros terminaux"
+      },
+      {
+        "input": "reverse_number(5)",
+        "expected": "5",
+        "description": "un chiffre"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_12",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne 1 si un entier positif est palindrome, sinon 0. La fonction doit s'appeler is_palindrome_number.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def is_palindrome_number(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "is_palindrome_number(1221)",
+        "expected": "1",
+        "description": "palindrome"
+      },
+      {
+        "input": "is_palindrome_number(123)",
+        "expected": "0",
+        "description": "non palindrome"
+      },
+      {
+        "input": "is_palindrome_number(7)",
+        "expected": "1",
+        "description": "un chiffre"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_13",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de bits a 1 dans un entier n >= 0. La fonction doit s'appeler count_set_bits.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def count_set_bits(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "count_set_bits(0)",
+        "expected": "0",
+        "description": "0"
+      },
+      {
+        "input": "count_set_bits(7)",
+        "expected": "3",
+        "description": "111b"
+      },
+      {
+        "input": "count_set_bits(10)",
+        "expected": "2",
+        "description": "1010b"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_14",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne la somme des carres de 1 a n (n >= 0). La fonction doit s'appeler sum_of_squares.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def sum_of_squares(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "sum_of_squares(3)",
+        "expected": "14",
+        "description": "1^2+2^2+3^2"
+      },
+      {
+        "input": "sum_of_squares(5)",
+        "expected": "55",
+        "description": "jusqu'a 5"
+      },
+      {
+        "input": "sum_of_squares(0)",
+        "expected": "0",
+        "description": "n=0"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_15",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne n! pour n >= 0. La fonction doit s'appeler factorial_iter.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def factorial_iter(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "factorial_iter(0)",
+        "expected": "1",
+        "description": "0!"
+      },
+      {
+        "input": "factorial_iter(5)",
+        "expected": "120",
+        "description": "5!"
+      },
+      {
+        "input": "factorial_iter(7)",
+        "expected": "5040",
+        "description": "7!"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_16",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le n-ieme nombre pair (n >= 0). La fonction doit s'appeler nth_even.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def nth_even(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "nth_even(0)",
+        "expected": "0",
+        "description": "premier pair"
+      },
+      {
+        "input": "nth_even(4)",
+        "expected": "8",
+        "description": "5e pair en partant de 0"
+      },
+      {
+        "input": "nth_even(10)",
+        "expected": "20",
+        "description": "11e pair en partant de 0"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_17",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne la somme des n premiers termes d'une suite arithmetique de premier terme a1 et de raison d. La fonction doit s'appeler arithmetic_sum.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def arithmetic_sum(a1, d, n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "arithmetic_sum(1, 1, 5)",
+        "expected": "15",
+        "description": "1+2+3+4+5"
+      },
+      {
+        "input": "arithmetic_sum(3, 2, 4)",
+        "expected": "24",
+        "description": "3+5+7+9"
+      },
+      {
+        "input": "arithmetic_sum(10, 0, 3)",
+        "expected": "30",
+        "description": "suite constante"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_18",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le PGCD de trois entiers positifs. La fonction doit s'appeler gcd_three.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def gcd_three(a, b, c):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "gcd_three(12, 18, 30)",
+        "expected": "6",
+        "description": "PGCD commun"
+      },
+      {
+        "input": "gcd_three(7, 13, 29)",
+        "expected": "1",
+        "description": "premiers entre eux"
+      },
+      {
+        "input": "gcd_three(20, 30, 40)",
+        "expected": "10",
+        "description": "PGCD 10"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_19",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n est une puissance de 2, sinon 0. La fonction doit s'appeler is_power_of_two.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def is_power_of_two(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "is_power_of_two(1)",
+        "expected": "1",
+        "description": "2^0"
+      },
+      {
+        "input": "is_power_of_two(16)",
+        "expected": "1",
+        "description": "2^4"
+      },
+      {
+        "input": "is_power_of_two(18)",
+        "expected": "0",
+        "description": "pas puissance de 2"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_20",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne la somme des chiffres pairs de n (en valeur absolue). La fonction doit s'appeler sum_even_digits.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def sum_even_digits(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "sum_even_digits(123456)",
+        "expected": "12",
+        "description": "2+4+6"
+      },
+      {
+        "input": "sum_even_digits(135)",
+        "expected": "0",
+        "description": "aucun chiffre pair"
+      },
+      {
+        "input": "sum_even_digits(-9082)",
+        "expected": "10",
+        "description": "8+0+2"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_21",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui compte le nombre d'occurrences du chiffre d dans n (en valeur absolue). La fonction doit s'appeler count_digit_value.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def count_digit_value(n, d):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "count_digit_value(122333, 3)",
+        "expected": "3",
+        "description": "trois fois 3"
+      },
+      {
+        "input": "count_digit_value(1001, 0)",
+        "expected": "2",
+        "description": "deux zeros"
+      },
+      {
+        "input": "count_digit_value(987, 1)",
+        "expected": "0",
+        "description": "absence de 1"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_22",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le plus petit multiple de m superieur ou egal a n (m > 0). La fonction doit s'appeler smallest_multiple_ge.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def smallest_multiple_ge(n, m):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "smallest_multiple_ge(10, 4)",
+        "expected": "12",
+        "description": "multiple suivant"
+      },
+      {
+        "input": "smallest_multiple_ge(15, 5)",
+        "expected": "15",
+        "description": "deja multiple"
+      },
+      {
+        "input": "smallest_multiple_ge(1, 7)",
+        "expected": "7",
+        "description": "premier multiple >= 1"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_23",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne la somme des entiers impairs de 1 a n (n >= 0). La fonction doit s'appeler sum_odd_to_n.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def sum_odd_to_n(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "sum_odd_to_n(1)",
+        "expected": "1",
+        "description": "1"
+      },
+      {
+        "input": "sum_odd_to_n(7)",
+        "expected": "16",
+        "description": "1+3+5+7"
+      },
+      {
+        "input": "sum_odd_to_n(10)",
+        "expected": "25",
+        "description": "1+3+5+7+9"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_24",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le n-ieme nombre triangulaire: n*(n+1)/2. La fonction doit s'appeler triangle_number.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def triangle_number(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "triangle_number(0)",
+        "expected": "0",
+        "description": "n=0"
+      },
+      {
+        "input": "triangle_number(5)",
+        "expected": "15",
+        "description": "5*6/2"
+      },
+      {
+        "input": "triangle_number(8)",
+        "expected": "36",
+        "description": "8*9/2"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_25",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne 1 si a et b sont premiers entre eux, sinon 0. La fonction doit s'appeler are_coprime.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def are_coprime(a, b):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "are_coprime(14, 15)",
+        "expected": "1",
+        "description": "PGCD=1"
+      },
+      {
+        "input": "are_coprime(18, 24)",
+        "expected": "0",
+        "description": "PGCD=6"
+      },
+      {
+        "input": "are_coprime(35, 64)",
+        "expected": "1",
+        "description": "PGCD=1"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_26",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le produit des chiffres de n (en valeur absolue). La fonction doit s'appeler product_digits.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def product_digits(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "product_digits(123)",
+        "expected": "6",
+        "description": "1*2*3"
+      },
+      {
+        "input": "product_digits(405)",
+        "expected": "0",
+        "description": "presence de 0"
+      },
+      {
+        "input": "product_digits(-37)",
+        "expected": "21",
+        "description": "3*7"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_27",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne le n-ieme terme d'une suite arithmetique de premier terme a1 et de raison d (n>=1). La fonction doit s'appeler nth_arithmetic_term.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def nth_arithmetic_term(a1, d, n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "nth_arithmetic_term(2, 3, 1)",
+        "expected": "2",
+        "description": "premier terme"
+      },
+      {
+        "input": "nth_arithmetic_term(2, 3, 4)",
+        "expected": "11",
+        "description": "2,5,8,11"
+      },
+      {
+        "input": "nth_arithmetic_term(10, -2, 3)",
+        "expected": "6",
+        "description": "10,8,6"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_28",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne la somme des multiples de m entre 1 et n inclus (m>0). La fonction doit s'appeler sum_multiples_up_to.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def sum_multiples_up_to(n, m):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "sum_multiples_up_to(10, 3)",
+        "expected": "18",
+        "description": "3+6+9"
+      },
+      {
+        "input": "sum_multiples_up_to(20, 5)",
+        "expected": "50",
+        "description": "5+10+15+20"
+      },
+      {
+        "input": "sum_multiples_up_to(4, 7)",
+        "expected": "0",
+        "description": "aucun multiple"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_29",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n est un carre parfait, sinon 0. La fonction doit s'appeler is_perfect_square_int.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def is_perfect_square_int(n):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "is_perfect_square_int(16)",
+        "expected": "1",
+        "description": "4^2"
+      },
+      {
+        "input": "is_perfect_square_int(18)",
+        "expected": "0",
+        "description": "pas un carre parfait"
+      },
+      {
+        "input": "is_perfect_square_int(0)",
+        "expected": "1",
+        "description": "0^2"
+      }
+    ]
+  },
+  {
+    "id": "python_medium_code_30",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Ecrivez une fonction qui compte combien de chiffres de n (en valeur absolue) sont egaux a d. La fonction doit s'appeler count_digits_equal_to.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def count_digits_equal_to(n, d):\n    # Votre code ici\n    pass",
+    "maxLines": 12,
+    "tests": [
+      {
+        "input": "count_digits_equal_to(122333, 3)",
+        "expected": "3",
+        "description": "trois 3"
+      },
+      {
+        "input": "count_digits_equal_to(1001, 0)",
+        "expected": "2",
+        "description": "deux 0"
+      },
+      {
+        "input": "count_digits_equal_to(456, 9)",
+        "expected": "0",
+        "description": "aucun 9"
+      }
+    ]
+  }
+]

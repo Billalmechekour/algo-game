@@ -1,0 +1,452 @@
+[
+  {
+    "id": "c_hard_flash_01",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce que la gestion mémoire en C?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Automatique",
+      "Manuel avec malloc/free",
+      "Par garbage collector",
+      "Pas nécessaire"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_02",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce qu'une structure en C?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Une variable",
+      "Un groupement de données",
+      "Une fonction",
+      "Une boucle"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_03",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel probleme peut apparaitre avec une recursion trop profonde ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Tri automatique",
+      "Compression memoire",
+      "Compilation plus rapide",
+      "Depassement de pile (stack overflow)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_04",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, dans quels cas la programmation dynamique est-elle utile ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Seulement les graphes ponderes",
+      "Uniquement les tableaux tries",
+      "Sous-problemes qui se repetent",
+      "Aucune boucle"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_05",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, pour un graphe non pondere, quel algorithme donne un plus court chemin en nombre d'aretes ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Kruskal",
+      "BFS",
+      "DFS",
+      "Prim"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_06",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel algorithme de plus court chemin suppose des poids non negatifs ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Dijkstra",
+      "BFS",
+      "Bellman-Ford",
+      "Floyd-Warshall"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_hard_flash_07",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, la complexite de merge sort est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_08",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, en cas de nombreuses collisions, la recherche dans une table de hachage peut degrader vers :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_09",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel est l'objectif principal de la memoization ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Remplacer les boucles",
+      "Eviter de recalculer des resultats deja obtenus",
+      "Eviter les fonctions",
+      "Compresser les fichiers"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_10",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, un overflow entier signifie :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Depassement de la plage representable",
+      "Suppression automatique de la variable",
+      "Erreur reseau",
+      "Type converti en texte"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_hard_flash_11",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, une race condition apparait surtout quand :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un seul thread lit une constante",
+      "Le code ne contient pas de boucle",
+      "Le CPU est lent",
+      "Plusieurs executions concurrentes modifient la meme donnee"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_12",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, deux boucles de tailles n et m donnent en general :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(1)",
+      "O(log n)",
+      "O(n * m)",
+      "O(n + m) uniquement"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_13",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle strategie divise un probleme en sous-problemes puis combine les resultats ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Greedy sans verification",
+      "Divide and conquer",
+      "Backtracking aveugle",
+      "Random walk"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_14",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, dans un graphe dense, quel parcours est souvent plus gourmand en memoire ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "BFS",
+      "DFS",
+      "Aucun des deux",
+      "Les deux utilisent toujours la meme memoire"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_hard_flash_15",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel algorithme de plus court chemin accepte les poids negatifs (sans cycle negatif) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Dijkstra",
+      "BFS",
+      "Prim",
+      "Bellman-Ford"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_16",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle est la complexite au pire cas de quicksort ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_17",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle structure est ideale pour gerer les composantes connexes dynamiques (union/find) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Tableau 2D",
+      "Disjoint Set Union (Union-Find)",
+      "Pile",
+      "File"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_18",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, l'algorithme de Dijkstra peut echouer si le graphe contient :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Des aretes de poids negatifs",
+      "Des sommets isoles",
+      "Des cycles",
+      "Des aretes non orientees"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_hard_flash_19",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, la memoization en programmation dynamique est une approche :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Bottom-up sans tableau",
+      "Tri de tableau",
+      "Parcours en largeur",
+      "Top-down avec cache"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_20",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, Floyd-Warshall permet principalement de calculer :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un tri topologique",
+      "Un parcours en profondeur",
+      "Les plus courts chemins entre toutes les paires de sommets",
+      "Un arbre couvrant minimal"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_21",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, dans un backtracking efficace, que fait le pruning ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Remplace la recursion par une boucle for",
+      "Elimine des branches impossibles ou non optimales",
+      "Ajoute des branches aleatoires",
+      "Transforme DFS en BFS"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_22",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, pour detecter un cycle dans un graphe oriente, quelle methode est classique ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "DFS avec etats de visite (blanc/gris/noir)",
+      "BFS sans tableau de visite",
+      "Tri par selection",
+      "Recherche binaire"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_hard_flash_23",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, un tri topologique est defini uniquement pour quel type de graphe ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Graphe non oriente quelconque",
+      "Graphe avec cycle negatif",
+      "Arbre binaire complet",
+      "Graphe oriente acyclique (DAG)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_24",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, la complexite temporelle classique de Floyd-Warshall est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n log n)",
+      "O(log n)",
+      "O(n^3)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_25",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, dans un graphe avec cycle negatif atteignable, que devient la notion de plus court chemin ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Elle est identique a BFS",
+      "Elle peut devenir non definie",
+      "Elle reste toujours unique",
+      "Elle vaut toujours 0"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_26",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel est l'avantage principal du backtracking par rapport a la force brute naive ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Il elimine des branches inutiles (pruning)",
+      "Il evite toute recursion",
+      "Il garantit O(log n)",
+      "Il trie automatiquement les donnees"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_hard_flash_27",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, si T(n)=2T(n/2)+n, la complexite est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_hard_flash_28",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, un tri topologique est possible uniquement sur :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un graphe avec cycle negatif",
+      "Une matrice creuse",
+      "Un graphe oriente acyclique (DAG)",
+      "Un graphe non oriente"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_hard_flash_29",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, la suppression du minimum dans un tas binaire a une complexite de :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n log n)",
+      "O(log n)",
+      "O(1)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_flash_30",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, la complexite classique de Bellman-Ford est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(V * E)",
+      "O(V + E)",
+      "O(E log V)",
+      "O(V^2)"
+    ],
+    "correctChoiceIndex": 0
+  }
+]

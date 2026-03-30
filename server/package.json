@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "generate:questions": "node scripts/generateQuestionBank.mjs",
+    "validate:questions": "node scripts/validateQuestions.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nanoid": "^5.1.6",
+    "ws": "^8.19.0"
+  }
+}

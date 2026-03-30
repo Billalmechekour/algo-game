@@ -1,0 +1,812 @@
+[
+  {
+    "id": "c_hard_code_01",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui retourne la somme de tous les éléments d'un array.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n\nint sumArray(int arr[], int size) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {
+        "input": "sumArray(arr, 3)",
+        "expected": "6",
+        "description": "sum"
+      },
+      {
+        "input": "sumArray(arr, 2)",
+        "expected": "30",
+        "description": "sum"
+      },
+      {
+        "input": "sumArray(arr, 0)",
+        "expected": "0",
+        "description": "empty"
+      }
+    ],
+    "maxLines": 14
+  },
+  {
+    "id": "c_hard_code_02",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui retourne le nombre d'occurrences d'une valeur.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n\nint countOccurrences(int arr[], int size, int value) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {
+        "input": "countOccurrences(arr, 4, 2)",
+        "expected": "2",
+        "description": "count"
+      },
+      {
+        "input": "countOccurrences(arr, 3, 1)",
+        "expected": "3",
+        "description": "count"
+      },
+      {
+        "input": "countOccurrences(arr, 1, 5)",
+        "expected": "1",
+        "description": "count"
+      }
+    ],
+    "maxLines": 14
+  },
+  {
+    "id": "c_hard_code_03",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui vérifie si un array est trié.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n#include <stdbool.h>\n\nbool isSorted(int arr[], int size) {\n    // Votre code ici\n    return true;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {
+        "input": "isSorted(arr, 3)",
+        "expected": "true",
+        "description": "sorted"
+      },
+      {
+        "input": "isSorted(arr, 3)",
+        "expected": "false",
+        "description": "unsorted"
+      },
+      {
+        "input": "isSorted(arr, 0)",
+        "expected": "true",
+        "description": "empty"
+      }
+    ],
+    "maxLines": 14
+  },
+  {
+    "id": "c_hard_code_04",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui calcule le PGCD de deux entiers positifs.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n\nint gcd(int a, int b) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {
+        "input": "gcd(12, 18)",
+        "expected": "6",
+        "description": "PGCD(12,18)"
+      },
+      {
+        "input": "gcd(100, 25)",
+        "expected": "25",
+        "description": "PGCD(100,25)"
+      },
+      {
+        "input": "gcd(17, 13)",
+        "expected": "1",
+        "description": "PGCD(17,13)"
+      }
+    ],
+    "maxLines": 14
+  },
+  {
+    "id": "c_hard_code_05",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne Tn de Tribonacci avec T0=0, T1=1, T2=1. La fonction doit s'appeler tribonacci.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int tribonacci(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "tribonacci(0)",
+        "expected": "0",
+        "description": "T0"
+      },
+      {
+        "input": "tribonacci(4)",
+        "expected": "4",
+        "description": "T4"
+      },
+      {
+        "input": "tribonacci(7)",
+        "expected": "24",
+        "description": "T7"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_06",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le nombre d'etapes de la suite de Collatz pour atteindre 1. La fonction doit s'appeler collatz_steps.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int collatz_steps(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "collatz_steps(1)",
+        "expected": "0",
+        "description": "deja 1"
+      },
+      {
+        "input": "collatz_steps(6)",
+        "expected": "8",
+        "description": "6->...->1"
+      },
+      {
+        "input": "collatz_steps(7)",
+        "expected": "16",
+        "description": "7->...->1"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_07",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la somme des termes pairs de Fibonacci inferieurs ou egaux a limit. La fonction doit s'appeler sum_even_fibonacci.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int sum_even_fibonacci(int limit) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "sum_even_fibonacci(1)",
+        "expected": "0",
+        "description": "aucun terme pair"
+      },
+      {
+        "input": "sum_even_fibonacci(10)",
+        "expected": "10",
+        "description": "2 + 8"
+      },
+      {
+        "input": "sum_even_fibonacci(34)",
+        "expected": "44",
+        "description": "2 + 8 + 34"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_08",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le plus grand facteur premier d'un entier n > 1. La fonction doit s'appeler largest_prime_factor.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int largest_prime_factor(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "largest_prime_factor(13195)",
+        "expected": "29",
+        "description": "exemple classique"
+      },
+      {
+        "input": "largest_prime_factor(84)",
+        "expected": "7",
+        "description": "facteurs de 84"
+      },
+      {
+        "input": "largest_prime_factor(97)",
+        "expected": "97",
+        "description": "n deja premier"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_09",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la racine numerique d'un entier positif. La fonction doit s'appeler digital_root.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int digital_root(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "digital_root(0)",
+        "expected": "0",
+        "description": "cas zero"
+      },
+      {
+        "input": "digital_root(38)",
+        "expected": "2",
+        "description": "3+8=11, 1+1=2"
+      },
+      {
+        "input": "digital_root(9999)",
+        "expected": "9",
+        "description": "racine numerique"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_10",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de zeros a la fin de n!. La fonction doit s'appeler trailing_zeros_factorial.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int trailing_zeros_factorial(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "trailing_zeros_factorial(5)",
+        "expected": "1",
+        "description": "5! = 120"
+      },
+      {
+        "input": "trailing_zeros_factorial(10)",
+        "expected": "2",
+        "description": "10!"
+      },
+      {
+        "input": "trailing_zeros_factorial(25)",
+        "expected": "6",
+        "description": "25!"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_11",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la racine carree entiere (partie entiere) de n >= 0. La fonction doit s'appeler integer_sqrt_floor.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int integer_sqrt_floor(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "integer_sqrt_floor(0)",
+        "expected": "0",
+        "description": "sqrt(0)"
+      },
+      {
+        "input": "integer_sqrt_floor(10)",
+        "expected": "3",
+        "description": "floor(sqrt(10))"
+      },
+      {
+        "input": "integer_sqrt_floor(81)",
+        "expected": "9",
+        "description": "sqrt(81)"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_12",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui compte le nombre d'occurrences du chiffre d dans l'entier n (en valeur absolue). La fonction doit s'appeler count_digit_occurrences.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int count_digit_occurrences(int n, int d) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "count_digit_occurrences(122333, 3)",
+        "expected": "3",
+        "description": "trois fois 3"
+      },
+      {
+        "input": "count_digit_occurrences(1000, 0)",
+        "expected": "3",
+        "description": "trois zeros"
+      },
+      {
+        "input": "count_digit_occurrences(987, 1)",
+        "expected": "0",
+        "description": "absence"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_13",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la somme des diviseurs propres de n (hors n lui-meme). La fonction doit s'appeler sum_proper_divisors.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int sum_proper_divisors(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "sum_proper_divisors(1)",
+        "expected": "0",
+        "description": "aucun diviseur propre"
+      },
+      {
+        "input": "sum_proper_divisors(6)",
+        "expected": "6",
+        "description": "1+2+3"
+      },
+      {
+        "input": "sum_proper_divisors(12)",
+        "expected": "16",
+        "description": "1+2+3+4+6"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_14",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n est un nombre parfait, sinon 0. La fonction doit s'appeler is_perfect_number.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int is_perfect_number(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "is_perfect_number(6)",
+        "expected": "1",
+        "description": "6 est parfait"
+      },
+      {
+        "input": "is_perfect_number(28)",
+        "expected": "1",
+        "description": "28 est parfait"
+      },
+      {
+        "input": "is_perfect_number(12)",
+        "expected": "0",
+        "description": "12 non parfait"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_15",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de facons de monter n marches en faisant des pas de 1 ou 2. La fonction doit s'appeler staircase_ways.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int staircase_ways(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "staircase_ways(0)",
+        "expected": "1",
+        "description": "une facon de rester en bas"
+      },
+      {
+        "input": "staircase_ways(4)",
+        "expected": "5",
+        "description": "n=4"
+      },
+      {
+        "input": "staircase_ways(6)",
+        "expected": "13",
+        "description": "n=6"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_16",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui convertit un entier compose de chiffres binaires (ex: 1011) vers le decimal. La fonction doit s'appeler binary_digits_to_decimal.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int binary_digits_to_decimal(int binary_digits) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "binary_digits_to_decimal(0)",
+        "expected": "0",
+        "description": "0b"
+      },
+      {
+        "input": "binary_digits_to_decimal(1011)",
+        "expected": "11",
+        "description": "1011b"
+      },
+      {
+        "input": "binary_digits_to_decimal(111111)",
+        "expected": "63",
+        "description": "111111b"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_17",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le survivant du probleme de Josephus pour n personnes et un pas k=2 (indexation a partir de 1). La fonction doit s'appeler josephus_two.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int josephus_two(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "josephus_two(1)",
+        "expected": "1",
+        "description": "n=1"
+      },
+      {
+        "input": "josephus_two(5)",
+        "expected": "3",
+        "description": "n=5"
+      },
+      {
+        "input": "josephus_two(10)",
+        "expected": "5",
+        "description": "n=10"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_18",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne (base^exp) % mod avec exp >= 0 et mod > 0. La fonction doit s'appeler fast_power_mod.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int fast_power_mod(int base, int exp, int mod) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "fast_power_mod(2, 10, 1000)",
+        "expected": "24",
+        "description": "1024 % 1000"
+      },
+      {
+        "input": "fast_power_mod(7, 0, 13)",
+        "expected": "1",
+        "description": "puissance zero"
+      },
+      {
+        "input": "fast_power_mod(5, 5, 7)",
+        "expected": "3",
+        "description": "3125 % 7"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_19",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le n-ieme nombre de Catalan (n >= 0). La fonction doit s'appeler catalan_number.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int catalan_number(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "catalan_number(0)",
+        "expected": "1",
+        "description": "C0"
+      },
+      {
+        "input": "catalan_number(3)",
+        "expected": "5",
+        "description": "C3"
+      },
+      {
+        "input": "catalan_number(5)",
+        "expected": "42",
+        "description": "C5"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_20",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de bits a 1 consecutifs a la fin de l'ecriture binaire de n (n >= 0). La fonction doit s'appeler count_trailing_ones_binary.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int count_trailing_ones_binary(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "count_trailing_ones_binary(0)",
+        "expected": "0",
+        "description": "0b0"
+      },
+      {
+        "input": "count_trailing_ones_binary(7)",
+        "expected": "3",
+        "description": "111b"
+      },
+      {
+        "input": "count_trailing_ones_binary(13)",
+        "expected": "1",
+        "description": "1101b"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_21",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la somme des entiers strictement inferieurs a limit qui sont multiples de 3 ou de 5. La fonction doit s'appeler sum_multiples_3_or_5.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int sum_multiples_3_or_5(int limit) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "sum_multiples_3_or_5(10)",
+        "expected": "23",
+        "description": "3+5+6+9"
+      },
+      {
+        "input": "sum_multiples_3_or_5(1)",
+        "expected": "0",
+        "description": "aucun entier"
+      },
+      {
+        "input": "sum_multiples_3_or_5(16)",
+        "expected": "60",
+        "description": "somme < 16"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_22",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le plus petit palindrome decimal superieur ou egal a n. La fonction doit s'appeler next_palindrome_number.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int next_palindrome_number(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "next_palindrome_number(123)",
+        "expected": "131",
+        "description": "palindrome suivant"
+      },
+      {
+        "input": "next_palindrome_number(99)",
+        "expected": "99",
+        "description": "deja palindrome"
+      },
+      {
+        "input": "next_palindrome_number(808)",
+        "expected": "808",
+        "description": "deja palindrome 3 chiffres"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_23",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne floor(log2(n)) pour n > 0. Pour n <= 0, retournez 0. La fonction doit s'appeler integer_log2_floor.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int integer_log2_floor(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "integer_log2_floor(1)",
+        "expected": "0",
+        "description": "log2(1)"
+      },
+      {
+        "input": "integer_log2_floor(16)",
+        "expected": "4",
+        "description": "log2(16)"
+      },
+      {
+        "input": "integer_log2_floor(31)",
+        "expected": "4",
+        "description": "floor(log2(31))"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_24",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n est un nombre d'Armstrong a 3 chiffres, sinon 0. La fonction doit s'appeler is_armstrong_3.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int is_armstrong_3(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "is_armstrong_3(153)",
+        "expected": "1",
+        "description": "153 est Armstrong"
+      },
+      {
+        "input": "is_armstrong_3(370)",
+        "expected": "1",
+        "description": "370 est Armstrong"
+      },
+      {
+        "input": "is_armstrong_3(200)",
+        "expected": "0",
+        "description": "200 non Armstrong"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_25",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne phi(n): le nombre d'entiers dans [1..n] qui sont premiers avec n. Pour n<=0, retournez 0. La fonction doit s'appeler euler_totient_small.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int euler_totient_small(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "euler_totient_small(1)",
+        "expected": "1",
+        "description": "phi(1)=1"
+      },
+      {
+        "input": "euler_totient_small(9)",
+        "expected": "6",
+        "description": "1,2,4,5,7,8"
+      },
+      {
+        "input": "euler_totient_small(10)",
+        "expected": "4",
+        "description": "1,3,7,9"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_26",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de nombres premiers <= n. La fonction doit s'appeler count_primes_up_to.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int count_primes_up_to(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "count_primes_up_to(1)",
+        "expected": "0",
+        "description": "aucun premier"
+      },
+      {
+        "input": "count_primes_up_to(10)",
+        "expected": "4",
+        "description": "2,3,5,7"
+      },
+      {
+        "input": "count_primes_up_to(30)",
+        "expected": "10",
+        "description": "10 premiers <= 30"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_27",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne Tn % mod pour la suite de Tribonacci (T0=0, T1=1, T2=1), avec mod > 0. La fonction doit s'appeler tribonacci_mod.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int tribonacci_mod(int n, int mod) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "tribonacci_mod(0, 7)",
+        "expected": "0",
+        "description": "T0"
+      },
+      {
+        "input": "tribonacci_mod(7, 5)",
+        "expected": "4",
+        "description": "T7=24, 24%5=4"
+      },
+      {
+        "input": "tribonacci_mod(8, 10)",
+        "expected": "4",
+        "description": "T8=44, 44%10=4"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_28",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la longueur maximale d'une suite consecutive de bits a 1 dans l'ecriture binaire de n (n >= 0). La fonction doit s'appeler longest_run_ones_binary.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int longest_run_ones_binary(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "longest_run_ones_binary(0)",
+        "expected": "0",
+        "description": "0b0"
+      },
+      {
+        "input": "longest_run_ones_binary(29)",
+        "expected": "3",
+        "description": "11101b"
+      },
+      {
+        "input": "longest_run_ones_binary(62)",
+        "expected": "5",
+        "description": "111110b"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_29",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne la plus petite puissance de 2 superieure ou egale a n. Si n<=1, retournez 1. La fonction doit s'appeler next_power_of_two_ge.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int next_power_of_two_ge(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "next_power_of_two_ge(1)",
+        "expected": "1",
+        "description": "cas de base"
+      },
+      {
+        "input": "next_power_of_two_ge(13)",
+        "expected": "16",
+        "description": "puissance suivante"
+      },
+      {
+        "input": "next_power_of_two_ge(32)",
+        "expected": "32",
+        "description": "deja puissance de 2"
+      }
+    ]
+  },
+  {
+    "id": "c_hard_code_30",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Ecrivez une fonction qui retourne le nombre d'iterations de l'algorithme d'Euclide pour calculer le PGCD de a et b (a,b>=0). La fonction doit s'appeler euclid_steps.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "int euclid_steps(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 14,
+    "tests": [
+      {
+        "input": "euclid_steps(10, 4)",
+        "expected": "2",
+        "description": "10%4 puis 4%2"
+      },
+      {
+        "input": "euclid_steps(12, 18)",
+        "expected": "3",
+        "description": "12,18 -> 18,12 -> 12,6 -> 6,0"
+      },
+      {
+        "input": "euclid_steps(7, 0)",
+        "expected": "0",
+        "description": "deja termine"
+      }
+    ]
+  }
+]

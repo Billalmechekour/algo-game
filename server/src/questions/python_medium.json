@@ -1,0 +1,60 @@
+[
+  {
+    "id": "py_medium_01",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'affiche le code suivant?\nx = [1, 2, 3]\nprint(x[1:3])",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["[1, 2]", "[2, 3]", "[1, 2, 3]", "[3]"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "py_medium_02",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne le carré d'un nombre.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def square(n):\n    # Votre code ici\n    pass",
+    "tests": [
+      {"input": "square(2)", "expected": "4", "description": "2²"},
+      {"input": "square(5)", "expected": "25", "description": "5²"},
+      {"input": "square(0)", "expected": "0", "description": "0²"}
+    ]
+  },
+  {
+    "id": "py_medium_03",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quel est le type retourné par range(5)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["list", "tuple", "range", "set"],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "py_medium_04",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'affiche: print('Hello ' * 2)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["Hello  Hello ", "Hello Hello", "2 Hello", "Error"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "py_medium_05",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne le maximum de deux nombres.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "def max_of_two(a, b):\n    # Votre code ici\n    pass",
+    "tests": [
+      {"input": "max_of_two(3, 5)", "expected": "5", "description": "max(3, 5)"},
+      {"input": "max_of_two(10, 2)", "expected": "10", "description": "max(10, 2)"},
+      {"input": "max_of_two(0, 0)", "expected": "0", "description": "max(0, 0)"}
+    ]
+  }
+]

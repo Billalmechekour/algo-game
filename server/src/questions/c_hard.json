@@ -1,0 +1,78 @@
+[
+  {
+    "id": "c_hard_01",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui retourne la somme de tous les éléments d'un array.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n\nint sumArray(int arr[], int size) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "sumArray(arr, 3)", "expected": "6", "description": "sum"},
+      {"input": "sumArray(arr, 2)", "expected": "30", "description": "sum"},
+      {"input": "sumArray(arr, 0)", "expected": "0", "description": "empty"}
+    ]
+  },
+  {
+    "id": "c_hard_02",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce que la gestion mémoire en C?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": ["Automatique", "Manuel avec malloc/free", "Par garbage collector", "Pas nécessaire"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_03",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui retourne le nombre d'occurrences d'une valeur.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n\nint countOccurrences(int arr[], int size, int value) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "countOccurrences(arr, 4, 2)", "expected": "2", "description": "count"},
+      {"input": "countOccurrences(arr, 3, 1)", "expected": "3", "description": "count"},
+      {"input": "countOccurrences(arr, 1, 5)", "expected": "1", "description": "count"}
+    ]
+  },
+  {
+    "id": "c_hard_04",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce qu'une structure en C?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": ["Une variable", "Un groupement de données", "Une fonction", "Une boucle"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_hard_05",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui vérifie si un array est trié.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n#include <stdbool.h>\n\nbool isSorted(int arr[], int size) {\n    // Votre code ici\n    return true;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "isSorted(arr, 3)", "expected": "true", "description": "sorted"},
+      {"input": "isSorted(arr, 3)", "expected": "false", "description": "unsorted"},
+      {"input": "isSorted(arr, 0)", "expected": "true", "description": "empty"}
+    ]
+  },
+  {
+    "id": "c_hard_06",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui calcule le PGCD de deux entiers positifs.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "#include <stdio.h>\n\nint gcd(int a, int b) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "gcd(12, 18)", "expected": "6", "description": "PGCD(12,18)"},
+      {"input": "gcd(100, 25)", "expected": "25", "description": "PGCD(100,25)"},
+      {"input": "gcd(17, 13)", "expected": "1", "description": "PGCD(17,13)"}
+    ]
+  }
+]

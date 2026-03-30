@@ -1,0 +1,812 @@
+[
+  {
+    "id": "cpp_simple_code_01",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Écrivez une fonction qui retourne la somme de deux entiers.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "#include <iostream>\nusing namespace std;\n\nint add(int a, int b) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {
+        "input": "add(2, 3)",
+        "expected": "5",
+        "description": "2 + 3"
+      },
+      {
+        "input": "add(0, 0)",
+        "expected": "0",
+        "description": "0 + 0"
+      },
+      {
+        "input": "add(-1, 1)",
+        "expected": "0",
+        "description": "-1 + 1"
+      }
+    ],
+    "maxLines": 10
+  },
+  {
+    "id": "cpp_simple_code_02",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Écrivez une fonction qui retourne le produit de deux entiers.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "#include <iostream>\nusing namespace std;\n\nint multiply(int a, int b) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {
+        "input": "multiply(2, 3)",
+        "expected": "6",
+        "description": "2 * 3"
+      },
+      {
+        "input": "multiply(-4, 2)",
+        "expected": "-8",
+        "description": "-4 * 2"
+      },
+      {
+        "input": "multiply(0, 10)",
+        "expected": "0",
+        "description": "0 * 10"
+      }
+    ],
+    "maxLines": 10
+  },
+  {
+    "id": "cpp_simple_code_03",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la somme de deux entiers. La fonction doit s'appeler add_numbers.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int add_numbers(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "add_numbers(2, 3)",
+        "expected": "5",
+        "description": "2 + 3"
+      },
+      {
+        "input": "add_numbers(-4, 10)",
+        "expected": "6",
+        "description": "-4 + 10"
+      },
+      {
+        "input": "add_numbers(0, 0)",
+        "expected": "0",
+        "description": "0 + 0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_04",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le produit de deux entiers. La fonction doit s'appeler multiply_numbers.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int multiply_numbers(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "multiply_numbers(4, 5)",
+        "expected": "20",
+        "description": "4 * 5"
+      },
+      {
+        "input": "multiply_numbers(-3, 2)",
+        "expected": "-6",
+        "description": "-3 * 2"
+      },
+      {
+        "input": "multiply_numbers(0, 9)",
+        "expected": "0",
+        "description": "0 * 9"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_05",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le carre d'un entier. La fonction doit s'appeler square_number.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int square_number(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "square_number(6)",
+        "expected": "36",
+        "description": "6^2"
+      },
+      {
+        "input": "square_number(-3)",
+        "expected": "9",
+        "description": "(-3)^2"
+      },
+      {
+        "input": "square_number(0)",
+        "expected": "0",
+        "description": "0^2"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_06",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le maximum de deux entiers. La fonction doit s'appeler max_of_two.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int max_of_two(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "max_of_two(8, 5)",
+        "expected": "8",
+        "description": "max(8,5)"
+      },
+      {
+        "input": "max_of_two(-1, 4)",
+        "expected": "4",
+        "description": "max(-1,4)"
+      },
+      {
+        "input": "max_of_two(7, 7)",
+        "expected": "7",
+        "description": "max(7,7)"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_07",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le minimum de deux entiers. La fonction doit s'appeler min_of_two.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int min_of_two(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "min_of_two(8, 5)",
+        "expected": "5",
+        "description": "min(8,5)"
+      },
+      {
+        "input": "min_of_two(-1, 4)",
+        "expected": "-1",
+        "description": "min(-1,4)"
+      },
+      {
+        "input": "min_of_two(7, 7)",
+        "expected": "7",
+        "description": "min(7,7)"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_08",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la valeur absolue d'un entier. La fonction doit s'appeler abs_value.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int abs_value(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "abs_value(-9)",
+        "expected": "9",
+        "description": "|-9|"
+      },
+      {
+        "input": "abs_value(3)",
+        "expected": "3",
+        "description": "|3|"
+      },
+      {
+        "input": "abs_value(0)",
+        "expected": "0",
+        "description": "|0|"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_09",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne 1 si l'entier est pair, sinon 0. La fonction doit s'appeler is_even_int.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int is_even_int(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "is_even_int(12)",
+        "expected": "1",
+        "description": "12 est pair"
+      },
+      {
+        "input": "is_even_int(7)",
+        "expected": "0",
+        "description": "7 est impair"
+      },
+      {
+        "input": "is_even_int(0)",
+        "expected": "1",
+        "description": "0 est pair"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_10",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la somme des entiers de 1 a n (n >= 0). La fonction doit s'appeler sum_to_n.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int sum_to_n(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "sum_to_n(5)",
+        "expected": "15",
+        "description": "1+2+3+4+5"
+      },
+      {
+        "input": "sum_to_n(1)",
+        "expected": "1",
+        "description": "n=1"
+      },
+      {
+        "input": "sum_to_n(0)",
+        "expected": "0",
+        "description": "n=0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_11",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le nombre de chiffres d'un entier (en valeur absolue). La fonction doit s'appeler digit_count.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int digit_count(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "digit_count(12345)",
+        "expected": "5",
+        "description": "5 chiffres"
+      },
+      {
+        "input": "digit_count(-99)",
+        "expected": "2",
+        "description": "2 chiffres"
+      },
+      {
+        "input": "digit_count(0)",
+        "expected": "1",
+        "description": "0 a 1 chiffre"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_12",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui borne une valeur entre 0 et 100. La fonction doit s'appeler clamp_0_100.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int clamp_0_100(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "clamp_0_100(-5)",
+        "expected": "0",
+        "description": "borne basse"
+      },
+      {
+        "input": "clamp_0_100(45)",
+        "expected": "45",
+        "description": "dans l'intervalle"
+      },
+      {
+        "input": "clamp_0_100(120)",
+        "expected": "100",
+        "description": "borne haute"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_13",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui inverse le signe d'un entier. La fonction doit s'appeler reverse_sign.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int reverse_sign(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "reverse_sign(7)",
+        "expected": "-7",
+        "description": "positif -> negatif"
+      },
+      {
+        "input": "reverse_sign(-4)",
+        "expected": "4",
+        "description": "negatif -> positif"
+      },
+      {
+        "input": "reverse_sign(0)",
+        "expected": "0",
+        "description": "0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_14",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la moyenne entiere (arrondie vers le bas) de trois entiers. La fonction doit s'appeler average_floor.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int average_floor(int a, int b, int c) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "average_floor(3, 4, 5)",
+        "expected": "4",
+        "description": "(3+4+5)/3"
+      },
+      {
+        "input": "average_floor(1, 2, 2)",
+        "expected": "1",
+        "description": "5/3 = 1"
+      },
+      {
+        "input": "average_floor(10, 10, 10)",
+        "expected": "10",
+        "description": "moyenne exacte"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_15",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la difference a - b. La fonction doit s'appeler subtract_numbers.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int subtract_numbers(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "subtract_numbers(9, 4)",
+        "expected": "5",
+        "description": "9 - 4"
+      },
+      {
+        "input": "subtract_numbers(-2, 5)",
+        "expected": "-7",
+        "description": "-2 - 5"
+      },
+      {
+        "input": "subtract_numbers(0, 0)",
+        "expected": "0",
+        "description": "0 - 0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_16",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n > 0, sinon 0. La fonction doit s'appeler is_positive.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int is_positive(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "is_positive(4)",
+        "expected": "1",
+        "description": "positif"
+      },
+      {
+        "input": "is_positive(-1)",
+        "expected": "0",
+        "description": "negatif"
+      },
+      {
+        "input": "is_positive(0)",
+        "expected": "0",
+        "description": "zero"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_17",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le maximum de trois entiers. La fonction doit s'appeler max_of_three.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int max_of_three(int a, int b, int c) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "max_of_three(2, 9, 4)",
+        "expected": "9",
+        "description": "max de 2,9,4"
+      },
+      {
+        "input": "max_of_three(-1, -7, -3)",
+        "expected": "-1",
+        "description": "max negatif"
+      },
+      {
+        "input": "max_of_three(5, 5, 1)",
+        "expected": "5",
+        "description": "egalite"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_18",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le minimum de trois entiers. La fonction doit s'appeler min_of_three.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int min_of_three(int a, int b, int c) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "min_of_three(2, 9, 4)",
+        "expected": "2",
+        "description": "min de 2,9,4"
+      },
+      {
+        "input": "min_of_three(-1, -7, -3)",
+        "expected": "-7",
+        "description": "min negatif"
+      },
+      {
+        "input": "min_of_three(5, 5, 1)",
+        "expected": "1",
+        "description": "minimum unique"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_19",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le cube d'un entier. La fonction doit s'appeler cube_number.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int cube_number(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "cube_number(3)",
+        "expected": "27",
+        "description": "3^3"
+      },
+      {
+        "input": "cube_number(-2)",
+        "expected": "-8",
+        "description": "(-2)^3"
+      },
+      {
+        "input": "cube_number(0)",
+        "expected": "0",
+        "description": "0^3"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_20",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le double d'un entier. La fonction doit s'appeler double_number.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int double_number(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "double_number(9)",
+        "expected": "18",
+        "description": "double de 9"
+      },
+      {
+        "input": "double_number(-4)",
+        "expected": "-8",
+        "description": "double negatif"
+      },
+      {
+        "input": "double_number(0)",
+        "expected": "0",
+        "description": "double de 0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_21",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne le reste de a divise par b. Si b vaut 0, retournez 0. La fonction doit s'appeler remainder_int.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int remainder_int(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "remainder_int(10, 3)",
+        "expected": "1",
+        "description": "10 % 3"
+      },
+      {
+        "input": "remainder_int(14, 7)",
+        "expected": "0",
+        "description": "multiple exact"
+      },
+      {
+        "input": "remainder_int(5, 0)",
+        "expected": "0",
+        "description": "division par zero protegee"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_22",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne 1 si a est multiple de b (et b != 0), sinon 0. La fonction doit s'appeler is_multiple.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int is_multiple(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "is_multiple(21, 7)",
+        "expected": "1",
+        "description": "21 multiple de 7"
+      },
+      {
+        "input": "is_multiple(22, 7)",
+        "expected": "0",
+        "description": "22 non multiple de 7"
+      },
+      {
+        "input": "is_multiple(5, 0)",
+        "expected": "0",
+        "description": "cas b=0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_23",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne n augmente de k. La fonction doit s'appeler increment_by_k.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int increment_by_k(int n, int k) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "increment_by_k(5, 3)",
+        "expected": "8",
+        "description": "5 + 3"
+      },
+      {
+        "input": "increment_by_k(-2, 10)",
+        "expected": "8",
+        "description": "-2 + 10"
+      },
+      {
+        "input": "increment_by_k(0, 0)",
+        "expected": "0",
+        "description": "0 + 0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_24",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la distance absolue entre deux entiers a et b. La fonction doit s'appeler distance_abs.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int distance_abs(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "distance_abs(10, 4)",
+        "expected": "6",
+        "description": "|10-4|"
+      },
+      {
+        "input": "distance_abs(-3, 5)",
+        "expected": "8",
+        "description": "|-3-5|"
+      },
+      {
+        "input": "distance_abs(7, 7)",
+        "expected": "0",
+        "description": "|7-7|"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_25",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la somme de trois entiers. La fonction doit s'appeler sum_three.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int sum_three(int a, int b, int c) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "sum_three(1, 2, 3)",
+        "expected": "6",
+        "description": "1+2+3"
+      },
+      {
+        "input": "sum_three(-1, 4, 0)",
+        "expected": "3",
+        "description": "-1+4+0"
+      },
+      {
+        "input": "sum_three(10, 10, 10)",
+        "expected": "30",
+        "description": "10+10+10"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_26",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne 1 si n vaut 0, sinon 0. La fonction doit s'appeler is_zero.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int is_zero(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "is_zero(0)",
+        "expected": "1",
+        "description": "n=0"
+      },
+      {
+        "input": "is_zero(5)",
+        "expected": "0",
+        "description": "n positif"
+      },
+      {
+        "input": "is_zero(-3)",
+        "expected": "0",
+        "description": "n negatif"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_27",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne n diminue de k. La fonction doit s'appeler decrement_by_k.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int decrement_by_k(int n, int k) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "decrement_by_k(9, 4)",
+        "expected": "5",
+        "description": "9 - 4"
+      },
+      {
+        "input": "decrement_by_k(-2, 3)",
+        "expected": "-5",
+        "description": "-2 - 3"
+      },
+      {
+        "input": "decrement_by_k(0, 0)",
+        "expected": "0",
+        "description": "0 - 0"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_28",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne la plus grande valeur absolue entre a et b. La fonction doit s'appeler max_abs_two.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int max_abs_two(int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "max_abs_two(10, -4)",
+        "expected": "10",
+        "description": "max(|10|,| -4 |)"
+      },
+      {
+        "input": "max_abs_two(-3, 5)",
+        "expected": "5",
+        "description": "max(|-3|,|5|)"
+      },
+      {
+        "input": "max_abs_two(-7, -7)",
+        "expected": "7",
+        "description": "valeurs absolues egales"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_29",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne 1 si x est dans l'intervalle [a, b], sinon 0. La fonction doit s'appeler in_range_inclusive.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int in_range_inclusive(int x, int a, int b) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "in_range_inclusive(5, 1, 10)",
+        "expected": "1",
+        "description": "5 dans [1,10]"
+      },
+      {
+        "input": "in_range_inclusive(1, 1, 10)",
+        "expected": "1",
+        "description": "borne incluse"
+      },
+      {
+        "input": "in_range_inclusive(11, 1, 10)",
+        "expected": "0",
+        "description": "hors intervalle"
+      }
+    ]
+  },
+  {
+    "id": "cpp_simple_code_30",
+    "type": "CODE",
+    "language": "cpp",
+    "prompt": "Ecrivez une fonction qui retourne n multiplie par 10. La fonction doit s'appeler multiply_by_ten.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "int multiply_by_ten(int n) {\n    // Votre code ici\n    return 0;\n}",
+    "maxLines": 10,
+    "tests": [
+      {
+        "input": "multiply_by_ten(3)",
+        "expected": "30",
+        "description": "3 * 10"
+      },
+      {
+        "input": "multiply_by_ten(-4)",
+        "expected": "-40",
+        "description": "-4 * 10"
+      },
+      {
+        "input": "multiply_by_ten(0)",
+        "expected": "0",
+        "description": "0 * 10"
+      }
+    ]
+  }
+]

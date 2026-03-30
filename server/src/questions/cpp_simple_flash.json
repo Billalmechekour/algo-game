@@ -1,0 +1,452 @@
+[
+  {
+    "id": "cpp_simple_flash_01",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "Quel est l'opérateur pour accéder à un membre d'une classe?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "->",
+      "::",
+      ".",
+      "::*"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_02",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "Comment imprimer en C++?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "printf()",
+      "cout <<",
+      "print()",
+      "echo()"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_03",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "Qu'est-ce qu'une classe en C++?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Une fonction",
+      "Un objet",
+      "Un modèle pour créer des objets",
+      "Une variable"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_04",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "Qu'est-ce qu'un template en C++?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Une classe",
+      "Une généricité",
+      "Une fonction",
+      "Une boucle"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_05",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle instruction affiche du texte dans la console ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Console.WriteLine(\"Bonjour\");",
+      "std::cout << \"Bonjour\" << std::endl;",
+      "print()",
+      "echo()"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_06",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle syntaxe correspond a un commentaire sur une ligne ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "// ceci est un commentaire",
+      "/* commentaire */",
+      "<!-- commentaire -->",
+      "' commentaire"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_simple_flash_07",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle valeur represente VRAI ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "false",
+      "0",
+      "None",
+      "true"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_simple_flash_08",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel operateur teste l'egalite entre deux valeurs ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "!=",
+      "=>",
+      "==",
+      "="
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_09",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel operateur calcule le modulo ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "**",
+      "%",
+      "/",
+      "//"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_10",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel operateur logique signifie ET ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "&&",
+      "||",
+      "==",
+      "!="
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_simple_flash_11",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, l'index du premier element d'un tableau/liste est :",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "1",
+      "-1",
+      "2",
+      "0"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_simple_flash_12",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel mot-cle introduit une condition ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "case",
+      "def",
+      "if",
+      "for"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_13",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle boucle est la plus utilisee pour iterer un nombre connu de fois ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "try",
+      "for",
+      "if",
+      "switch"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_14",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle expression convertit une chaine \"42\" en entier ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "std::stoi(\"42\")",
+      "toString(42)",
+      "float(\"42\")",
+      "parseBool(\"42\")"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_simple_flash_15",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle ecriture incremente x de 1 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "x =+ 1",
+      "x == x + 1",
+      "x := x + 1",
+      "x = x + 1"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_simple_flash_16",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel type est utilise pour manipuler du texte ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "bool",
+      "void",
+      "std::string",
+      "int"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_17",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel mot-cle permet de sortir immediatement d'une boucle ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "stop",
+      "break",
+      "continue",
+      "return"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_18",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel mot-cle passe directement a l'iteration suivante d'une boucle ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "continue",
+      "break",
+      "next",
+      "redo"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_simple_flash_19",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel operateur logique signifie OU ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "&&",
+      "==",
+      "!=",
+      "||"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_simple_flash_20",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle structure repete des instructions tant qu'une condition est vraie ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "switch",
+      "class",
+      "while",
+      "if"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_21",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel symbole represente une comparaison \"strictement superieur\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "==",
+      ">",
+      "<",
+      ">="
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_22",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel symbole represente une comparaison \"inferieur ou egal\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "<=",
+      "<",
+      ">=",
+      "!="
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_simple_flash_23",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, si l'indexation commence a 0, quel index correspond au 2e element ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "0",
+      "2",
+      "-1",
+      "1"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_simple_flash_24",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel est le resultat de l'expression 5 % 2 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "2",
+      "2.5",
+      "1",
+      "0"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_25",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel mot-cle permet de renvoyer une valeur depuis une fonction ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "yield",
+      "return",
+      "break",
+      "continue"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_26",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel operateur signifie \"different de\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "!=",
+      "==",
+      "<>",
+      "=>"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_simple_flash_27",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel est le resultat de 3 * 4 + 1 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "12",
+      "15",
+      "7",
+      "13"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_simple_flash_28",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, comment appelle-t-on l'erreur liee a un acces hors limites d'un tableau ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Race condition",
+      "Garbage collection",
+      "Depassement de limites (out-of-bounds)",
+      "Deadlock"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_simple_flash_29",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel mot-cle execute un bloc si la condition est fausse ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "case",
+      "else",
+      "elif",
+      "while"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_simple_flash_30",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel separateur est utilise entre deux parametres de fonction ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      ",",
+      ";",
+      ":",
+      "."
+    ],
+    "correctChoiceIndex": 0
+  }
+]

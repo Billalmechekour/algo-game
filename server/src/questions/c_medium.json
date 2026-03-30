@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c_medium_01",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce qu'un tableau dynamique en C?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["malloc", "calloc", "Un pointeur avec malloc", "Pas possible"],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_02",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui retourne le maximum de deux nombres.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "#include <stdio.h>\n\nint max(int a, int b) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "max(3, 5)", "expected": "5", "description": "max(3, 5)"},
+      {"input": "max(10, 2)", "expected": "10", "description": "max(10, 2)"},
+      {"input": "max(0, 0)", "expected": "0", "description": "max(0, 0)"}
+    ]
+  },
+  {
+    "id": "c_medium_03",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Quelle fonction libère la mémoire allouée avec malloc?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["delete()", "free()", "release()", "destroy()"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_04",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'affiche printf('%d', 5 + 3)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["5 + 3", "8", "5", "Error"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_05",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui vérifie si un nombre est pair.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "#include <stdio.h>\n#include <stdbool.h>\n\nbool isEven(int n) {\n    // Votre code ici\n    return false;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "isEven(4)", "expected": "true", "description": "4 is even"},
+      {"input": "isEven(3)", "expected": "false", "description": "3 is odd"},
+      {"input": "isEven(0)", "expected": "true", "description": "0 is even"}
+    ]
+  },
+  {
+    "id": "c_medium_06",
+    "type": "CODE",
+    "language": "c",
+    "prompt": "Écrivez une fonction qui retourne la valeur absolue d'un entier.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "#include <stdio.h>\n\nint absValue(int n) {\n    // Votre code ici\n    return 0;\n}\n\nint main() {\n    return 0;\n}",
+    "tests": [
+      {"input": "absValue(5)", "expected": "5", "description": "|5|"},
+      {"input": "absValue(-7)", "expected": "7", "description": "|-7|"},
+      {"input": "absValue(0)", "expected": "0", "description": "|0|"}
+    ]
+  }
+]

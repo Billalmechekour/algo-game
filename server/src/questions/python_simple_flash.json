@@ -1,0 +1,452 @@
+[
+  {
+    "id": "python_simple_flash_01",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'affiche le code suivant?\nfor i in range(3):\n    print(i)",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "0 1 2",
+      "1 2 3",
+      "0 1 2 3",
+      "Rien"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_02",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quel est le résultat de: len('Hello')?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "Error"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_03",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quelle est la bonne syntaxe pour créer une liste en Python?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "list = {1, 2, 3}",
+      "list = [1, 2, 3]",
+      "list = (1, 2, 3)",
+      "list = <1, 2, 3>"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_04",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'est-ce qu'une boucle for?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Une boucle conditionnelle",
+      "Une boucle d'itération",
+      "Une fonction",
+      "Un commentaire"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_05",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle instruction affiche du texte dans la console ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "echo()",
+      "Console.WriteLine(\"Bonjour\");",
+      "print(\"Bonjour\")",
+      "print()"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_06",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle syntaxe correspond a un commentaire sur une ligne ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "' commentaire",
+      "# ceci est un commentaire",
+      "/* commentaire */",
+      "<!-- commentaire -->"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_07",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle valeur represente VRAI ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "True",
+      "false",
+      "0",
+      "None"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_08",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel operateur teste l'egalite entre deux valeurs ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "=",
+      "!=",
+      "=>",
+      "=="
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_simple_flash_09",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel operateur calcule le modulo ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "//",
+      "**",
+      "%",
+      "/"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_10",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel operateur logique signifie ET ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "!=",
+      "and",
+      "||",
+      "=="
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_11",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, l'index du premier element d'un tableau/liste est :",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "0",
+      "1",
+      "-1",
+      "2"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_12",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel mot-cle introduit une condition ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "for",
+      "case",
+      "def",
+      "if"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_simple_flash_13",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle boucle est la plus utilisee pour iterer un nombre connu de fois ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "switch",
+      "try",
+      "for",
+      "if"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_14",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle expression convertit une chaine \"42\" en entier ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "parseBool(\"42\")",
+      "int(\"42\")",
+      "toString(42)",
+      "float(\"42\")"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_15",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle ecriture incremente x de 1 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "x = x + 1",
+      "x =+ 1",
+      "x == x + 1",
+      "x := x + 1"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_16",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel type est utilise pour manipuler du texte ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "int",
+      "bool",
+      "void",
+      "str"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_simple_flash_17",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel mot-cle permet de sortir immediatement d'une boucle ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "return",
+      "stop",
+      "break",
+      "continue"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_18",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel mot-cle passe directement a l'iteration suivante d'une boucle ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "redo",
+      "continue",
+      "break",
+      "next"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_19",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel operateur logique signifie OU ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "or",
+      "and",
+      "==",
+      "!="
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_20",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle structure repete des instructions tant qu'une condition est vraie ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "if",
+      "switch",
+      "class",
+      "while"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_simple_flash_21",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel symbole represente une comparaison \"strictement superieur\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      ">=",
+      "==",
+      ">",
+      "<"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_22",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel symbole represente une comparaison \"inferieur ou egal\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "!=",
+      "<=",
+      "<",
+      ">="
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_23",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, si l'indexation commence a 0, quel index correspond au 2e element ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "1",
+      "0",
+      "2",
+      "-1"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_24",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel est le resultat de l'expression 5 % 2 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "0",
+      "2",
+      "2.5",
+      "1"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_simple_flash_25",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel mot-cle permet de renvoyer une valeur depuis une fonction ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "continue",
+      "yield",
+      "return",
+      "break"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_26",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel operateur signifie \"different de\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "=>",
+      "!=",
+      "==",
+      "<>"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_simple_flash_27",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel est le resultat de 3 * 4 + 1 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "13",
+      "12",
+      "15",
+      "7"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_simple_flash_28",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, comment appelle-t-on l'erreur liee a un acces hors limites d'un tableau ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Deadlock",
+      "Race condition",
+      "Garbage collection",
+      "Depassement de limites (out-of-bounds)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_simple_flash_29",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel mot-cle execute un bloc si la condition est fausse ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "while",
+      "case",
+      "else",
+      "elif"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_simple_flash_30",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel separateur est utilise entre deux parametres de fonction ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      ".",
+      ",",
+      ";",
+      ":"
+    ],
+    "correctChoiceIndex": 1
+  }
+]

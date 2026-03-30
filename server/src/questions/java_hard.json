@@ -1,0 +1,64 @@
+[
+  {
+    "id": "java_hard_01",
+    "type": "CODE",
+    "language": "java",
+    "prompt": "Écrivez une méthode qui retourne la somme de tous les éléments d'un array.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "public class Solution {\n    public static int sumArray(int[] arr) {\n        // Votre code ici\n        return 0;\n    }\n}",
+    "tests": [
+      {"input": "sumArray(new int[]{1, 2, 3})", "expected": "6", "description": "sum"},
+      {"input": "sumArray(new int[]{10, 20})", "expected": "30", "description": "sum"},
+      {"input": "sumArray(new int[]{})", "expected": "0", "description": "empty"}
+    ]
+  },
+  {
+    "id": "java_hard_02",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce que l'héritage en POO?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": ["Recevoir des propriétés d'une classe", "Créer une instance", "Modifier un objet", "Copier du code"],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_03",
+    "type": "CODE",
+    "language": "java",
+    "prompt": "Écrivez une méthode qui retourne le nombre d'occurrences d'une valeur.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "public class Solution {\n    public static int countOccurrences(int[] arr, int value) {\n        // Votre code ici\n        return 0;\n    }\n}",
+    "tests": [
+      {"input": "countOccurrences(new int[]{1, 2, 2, 3}, 2)", "expected": "2", "description": "count"},
+      {"input": "countOccurrences(new int[]{1, 1, 1}, 1)", "expected": "3", "description": "count"},
+      {"input": "countOccurrences(new int[]{5}, 5)", "expected": "1", "description": "count"}
+    ]
+  },
+  {
+    "id": "java_hard_04",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce que le polymorphisme?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": ["Plusieurs formes", "Une abstraction", "Une interface", "Une classe abstraite"],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_05",
+    "type": "CODE",
+    "language": "java",
+    "prompt": "Écrivez une méthode qui vérifie si un array est trié.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "public class Solution {\n    public static boolean isSorted(int[] arr) {\n        // Votre code ici\n        return true;\n    }\n}",
+    "tests": [
+      {"input": "isSorted(new int[]{1, 2, 3})", "expected": "true", "description": "sorted"},
+      {"input": "isSorted(new int[]{3, 1, 2})", "expected": "false", "description": "unsorted"},
+      {"input": "isSorted(new int[]{})", "expected": "true", "description": "empty"}
+    ]
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "python_hard_flash_01",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quelle est la complexité temporelle de la recherche binaire?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n)",
+      "O(n²)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_02",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'est-ce qu'une fonction lambda en Python?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Une constante",
+      "Une fonction anonyme",
+      "Une classe",
+      "Un module"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_03",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel probleme peut apparaitre avec une recursion trop profonde ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Compression memoire",
+      "Compilation plus rapide",
+      "Depassement de pile (stack overflow)",
+      "Tri automatique"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_04",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, dans quels cas la programmation dynamique est-elle utile ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Uniquement les tableaux tries",
+      "Sous-problemes qui se repetent",
+      "Aucune boucle",
+      "Seulement les graphes ponderes"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_05",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, pour un graphe non pondere, quel algorithme donne un plus court chemin en nombre d'aretes ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "BFS",
+      "DFS",
+      "Prim",
+      "Kruskal"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_06",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel algorithme de plus court chemin suppose des poids non negatifs ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "BFS",
+      "Bellman-Ford",
+      "Floyd-Warshall",
+      "Dijkstra"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_hard_flash_07",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, la complexite de merge sort est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n^2)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_08",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, en cas de nombreuses collisions, la recherche dans une table de hachage peut degrader vers :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n log n)",
+      "O(n)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_09",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel est l'objectif principal de la memoization ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Eviter de recalculer des resultats deja obtenus",
+      "Eviter les fonctions",
+      "Compresser les fichiers",
+      "Remplacer les boucles"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_10",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, un overflow entier signifie :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Suppression automatique de la variable",
+      "Erreur reseau",
+      "Type converti en texte",
+      "Depassement de la plage representable"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_hard_flash_11",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, une race condition apparait surtout quand :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Le code ne contient pas de boucle",
+      "Le CPU est lent",
+      "Plusieurs executions concurrentes modifient la meme donnee",
+      "Un seul thread lit une constante"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_12",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, deux boucles de tailles n et m donnent en general :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(n * m)",
+      "O(n + m) uniquement",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_13",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle strategie divise un probleme en sous-problemes puis combine les resultats ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Divide and conquer",
+      "Backtracking aveugle",
+      "Random walk",
+      "Greedy sans verification"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_14",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, dans un graphe dense, quel parcours est souvent plus gourmand en memoire ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "DFS",
+      "Aucun des deux",
+      "Les deux utilisent toujours la meme memoire",
+      "BFS"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_hard_flash_15",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel algorithme de plus court chemin accepte les poids negatifs (sans cycle negatif) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "BFS",
+      "Prim",
+      "Bellman-Ford",
+      "Dijkstra"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_16",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle est la complexite au pire cas de quicksort ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_17",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle structure est ideale pour gerer les composantes connexes dynamiques (union/find) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Disjoint Set Union (Union-Find)",
+      "Pile",
+      "File",
+      "Tableau 2D"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_18",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, l'algorithme de Dijkstra peut echouer si le graphe contient :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Des sommets isoles",
+      "Des cycles",
+      "Des aretes non orientees",
+      "Des aretes de poids negatifs"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_hard_flash_19",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, la memoization en programmation dynamique est une approche :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Tri de tableau",
+      "Parcours en largeur",
+      "Top-down avec cache",
+      "Bottom-up sans tableau"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_20",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, Floyd-Warshall permet principalement de calculer :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un parcours en profondeur",
+      "Les plus courts chemins entre toutes les paires de sommets",
+      "Un arbre couvrant minimal",
+      "Un tri topologique"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_21",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, dans un backtracking efficace, que fait le pruning ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Elimine des branches impossibles ou non optimales",
+      "Ajoute des branches aleatoires",
+      "Transforme DFS en BFS",
+      "Remplace la recursion par une boucle for"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_22",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, pour detecter un cycle dans un graphe oriente, quelle methode est classique ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "BFS sans tableau de visite",
+      "Tri par selection",
+      "Recherche binaire",
+      "DFS avec etats de visite (blanc/gris/noir)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_hard_flash_23",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, un tri topologique est defini uniquement pour quel type de graphe ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Graphe avec cycle negatif",
+      "Arbre binaire complet",
+      "Graphe oriente acyclique (DAG)",
+      "Graphe non oriente quelconque"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_24",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, la complexite temporelle classique de Floyd-Warshall est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(n^3)",
+      "O(n^2)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_25",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, dans un graphe avec cycle negatif atteignable, que devient la notion de plus court chemin ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Elle peut devenir non definie",
+      "Elle reste toujours unique",
+      "Elle vaut toujours 0",
+      "Elle est identique a BFS"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_26",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel est l'avantage principal du backtracking par rapport a la force brute naive ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Il evite toute recursion",
+      "Il garantit O(log n)",
+      "Il trie automatiquement les donnees",
+      "Il elimine des branches inutiles (pruning)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_hard_flash_27",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, si T(n)=2T(n/2)+n, la complexite est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n^2)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_hard_flash_28",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, un tri topologique est possible uniquement sur :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Une matrice creuse",
+      "Un graphe oriente acyclique (DAG)",
+      "Un graphe non oriente",
+      "Un graphe avec cycle negatif"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_hard_flash_29",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, la suppression du minimum dans un tas binaire a une complexite de :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_hard_flash_30",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, la complexite classique de Bellman-Ford est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(V + E)",
+      "O(E log V)",
+      "O(V^2)",
+      "O(V * E)"
+    ],
+    "correctChoiceIndex": 3
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "c_medium_flash_01",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce qu'un tableau dynamique en C?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "malloc",
+      "calloc",
+      "Un pointeur avec malloc",
+      "Pas possible"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_02",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Quelle fonction libère la mémoire allouée avec malloc?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "delete()",
+      "free()",
+      "release()",
+      "destroy()"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_03",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'affiche printf('%d', 5 + 3)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "5 + 3",
+      "8",
+      "5",
+      "Error"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_04",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle complexite correspond a une recherche lineaire dans un tableau ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1)",
+      "O(log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_05",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle complexite correspond a une recherche binaire sur un tableau trie ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(n log n)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_06",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, une file (queue) suit quel principe ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Aucun ordre",
+      "FIFO",
+      "LIFO",
+      "FILO"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_07",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, une pile (stack) suit quel principe ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "LIFO",
+      "FIFO",
+      "FILO",
+      "Aucun ordre"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_medium_flash_08",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, pourquoi une fonction recursive a-t-elle besoin d'un cas de base ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Pour accelerer le compilateur",
+      "Pour eviter les variables",
+      "Pour trier les tableaux",
+      "Pour arreter la recursion"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_09",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, deux boucles imbriquees sur n elements donnent souvent quelle complexite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_10",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle structure est adaptee pour associer cle -> valeur ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Tableau fixe",
+      "Table de hachage / dictionnaire",
+      "Pile",
+      "File"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_11",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel algorithme est le plus adapte pour chercher une valeur dans une collection non triee ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Recherche lineaire",
+      "Recherche binaire",
+      "Dijkstra",
+      "Merge sort"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_medium_flash_12",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel est le principal risque d'une condition de boucle mal ecrite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Erreur de compilation garantie",
+      "Suppression de variables",
+      "Aucun risque",
+      "Boucle infinie"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_13",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel bug represente souvent un probleme de bornes de boucle ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Deadlock",
+      "Race condition",
+      "Off-by-one",
+      "Memory leak"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_14",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, que fait un tri stable ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Supprime les doublons",
+      "Conserve l'ordre relatif des elements egaux",
+      "Trie seulement les nombres",
+      "Inverse automatiquement le tableau"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_15",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle notation de complexite ignore les constantes multiplicatives ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Big-O",
+      "JSON",
+      "ASCII",
+      "UTF-8"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_medium_flash_16",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle est la complexite moyenne d'un tri par insertion ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_17",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle est la precondition indispensable pour utiliser une recherche binaire ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Le tableau doit etre de taille paire",
+      "Aucune precondition",
+      "Le tableau doit etre trie",
+      "Le tableau doit etre vide"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_18",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel parcours de graphe utilise naturellement une pile (explicite ou implicite) ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Kruskal",
+      "DFS",
+      "BFS",
+      "Dijkstra"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_19",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel parcours de graphe utilise naturellement une file ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "BFS",
+      "DFS",
+      "A*",
+      "Bellman-Ford"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_medium_flash_20",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, l'acces moyen a une cle dans une table de hachage bien dimensionnee est plutot :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_21",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle structure de donnee est la plus adaptee pour implementer une file de priorite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Tableau non trie",
+      "Pile",
+      "Tas binaire (heap)",
+      "Liste chainee simple"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_22",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel tri repose sur la strategie divide and conquer et combine deux moities triees ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Insertion sort",
+      "Merge sort",
+      "Bubble sort",
+      "Selection sort"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_23",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, si on ajoute un element en fin d'un tableau dynamique, la complexite amortie est generalement :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1) amorti",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_medium_flash_24",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, parcourir completement une matrice n x n a une complexite en :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_25",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel tri classique est stable par nature (implementation standard) ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Heap sort",
+      "Quick sort",
+      "Insertion sort",
+      "Selection sort"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_26",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle structure est la plus adaptee pour gerer un mecanisme Annuler/Refaire ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Tableau trie",
+      "Pile (stack)",
+      "File (queue)",
+      "Arbre binaire"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_medium_flash_27",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, supprimer le premier element d'une liste chainee simplement chainee est en moyenne :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_medium_flash_28",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, parcourir une fois un tableau de n elements a une complexite de :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1)",
+      "O(log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_medium_flash_29",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel type de structure est utilisee par BFS pour gerer les noeuds a visiter ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Tas",
+      "Table de hachage",
+      "File (queue)",
+      "Pile (stack)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_medium_flash_30",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle est la complexite moyenne du tri a bulles ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 1
+  }
+]

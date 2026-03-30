@@ -1,0 +1,452 @@
+[
+  {
+    "id": "cpp_hard_flash_01",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "Qu'est-ce que le polymorphisme en C++?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Plusieurs formes",
+      "Une abstraction",
+      "Une interface",
+      "Une classe abstraite"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_02",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "Qu'est-ce qu'un pointeur en C++?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Une variable",
+      "Une adresse mémoire",
+      "Un tableau",
+      "Une fonction"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_03",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel probleme peut apparaitre avec une recursion trop profonde ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Compilation plus rapide",
+      "Depassement de pile (stack overflow)",
+      "Tri automatique",
+      "Compression memoire"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_04",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, dans quels cas la programmation dynamique est-elle utile ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Sous-problemes qui se repetent",
+      "Aucune boucle",
+      "Seulement les graphes ponderes",
+      "Uniquement les tableaux tries"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_05",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, pour un graphe non pondere, quel algorithme donne un plus court chemin en nombre d'aretes ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "DFS",
+      "Prim",
+      "Kruskal",
+      "BFS"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_06",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel algorithme de plus court chemin suppose des poids non negatifs ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Bellman-Ford",
+      "Floyd-Warshall",
+      "Dijkstra",
+      "BFS"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_hard_flash_07",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, la complexite de merge sort est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_08",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, en cas de nombreuses collisions, la recherche dans une table de hachage peut degrader vers :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_09",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel est l'objectif principal de la memoization ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Eviter les fonctions",
+      "Compresser les fichiers",
+      "Remplacer les boucles",
+      "Eviter de recalculer des resultats deja obtenus"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_10",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, un overflow entier signifie :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Erreur reseau",
+      "Type converti en texte",
+      "Depassement de la plage representable",
+      "Suppression automatique de la variable"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_hard_flash_11",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, une race condition apparait surtout quand :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Le CPU est lent",
+      "Plusieurs executions concurrentes modifient la meme donnee",
+      "Un seul thread lit une constante",
+      "Le code ne contient pas de boucle"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_12",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, deux boucles de tailles n et m donnent en general :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n * m)",
+      "O(n + m) uniquement",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_13",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle strategie divise un probleme en sous-problemes puis combine les resultats ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Backtracking aveugle",
+      "Random walk",
+      "Greedy sans verification",
+      "Divide and conquer"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_14",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, dans un graphe dense, quel parcours est souvent plus gourmand en memoire ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Aucun des deux",
+      "Les deux utilisent toujours la meme memoire",
+      "BFS",
+      "DFS"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_hard_flash_15",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel algorithme de plus court chemin accepte les poids negatifs (sans cycle negatif) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Prim",
+      "Bellman-Ford",
+      "Dijkstra",
+      "BFS"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_16",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle est la complexite au pire cas de quicksort ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n^2)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_17",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quelle structure est ideale pour gerer les composantes connexes dynamiques (union/find) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Pile",
+      "File",
+      "Tableau 2D",
+      "Disjoint Set Union (Union-Find)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_18",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, l'algorithme de Dijkstra peut echouer si le graphe contient :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Des cycles",
+      "Des aretes non orientees",
+      "Des aretes de poids negatifs",
+      "Des sommets isoles"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_hard_flash_19",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, la memoization en programmation dynamique est une approche :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Parcours en largeur",
+      "Top-down avec cache",
+      "Bottom-up sans tableau",
+      "Tri de tableau"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_20",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, Floyd-Warshall permet principalement de calculer :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Les plus courts chemins entre toutes les paires de sommets",
+      "Un arbre couvrant minimal",
+      "Un tri topologique",
+      "Un parcours en profondeur"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_21",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, dans un backtracking efficace, que fait le pruning ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Ajoute des branches aleatoires",
+      "Transforme DFS en BFS",
+      "Remplace la recursion par une boucle for",
+      "Elimine des branches impossibles ou non optimales"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_22",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, pour detecter un cycle dans un graphe oriente, quelle methode est classique ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Tri par selection",
+      "Recherche binaire",
+      "DFS avec etats de visite (blanc/gris/noir)",
+      "BFS sans tableau de visite"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_hard_flash_23",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, un tri topologique est defini uniquement pour quel type de graphe ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Arbre binaire complet",
+      "Graphe oriente acyclique (DAG)",
+      "Graphe non oriente quelconque",
+      "Graphe avec cycle negatif"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_24",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, la complexite temporelle classique de Floyd-Warshall est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n^3)",
+      "O(n^2)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_25",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, dans un graphe avec cycle negatif atteignable, que devient la notion de plus court chemin ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Elle reste toujours unique",
+      "Elle vaut toujours 0",
+      "Elle est identique a BFS",
+      "Elle peut devenir non definie"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_26",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, quel est l'avantage principal du backtracking par rapport a la force brute naive ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Il garantit O(log n)",
+      "Il trie automatiquement les donnees",
+      "Il elimine des branches inutiles (pruning)",
+      "Il evite toute recursion"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "cpp_hard_flash_27",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, si T(n)=2T(n/2)+n, la complexite est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "cpp_hard_flash_28",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, un tri topologique est possible uniquement sur :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un graphe oriente acyclique (DAG)",
+      "Un graphe non oriente",
+      "Un graphe avec cycle negatif",
+      "Une matrice creuse"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "cpp_hard_flash_29",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, la suppression du minimum dans un tas binaire a une complexite de :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(1)",
+      "O(n)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "cpp_hard_flash_30",
+    "type": "FLASH",
+    "language": "cpp",
+    "prompt": "En C++, la complexite classique de Bellman-Ford est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(E log V)",
+      "O(V^2)",
+      "O(V * E)",
+      "O(V + E)"
+    ],
+    "correctChoiceIndex": 2
+  }
+]

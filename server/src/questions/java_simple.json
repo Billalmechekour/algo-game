@@ -1,0 +1,56 @@
+[
+  {
+    "id": "java_simple_01",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Quelle est la méthode principale d'une classe Java?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["main()", "start()", "init()", "run()"],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_simple_02",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Quel est le type de 'Hello World'?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["int", "String", "char", "boolean"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_simple_03",
+    "type": "CODE",
+    "language": "java",
+    "prompt": "Écrivez une méthode qui retourne la somme de deux entiers.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "public class Solution {\n    public static int add(int a, int b) {\n        // Votre code ici\n        return 0;\n    }\n}",
+    "tests": [
+      {"input": "add(2, 3)", "expected": "5", "description": "2 + 3"},
+      {"input": "add(0, 0)", "expected": "0", "description": "0 + 0"},
+      {"input": "add(-1, 1)", "expected": "0", "description": "-1 + 1"}
+    ]
+  },
+  {
+    "id": "java_simple_04",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Comment créer une variable en Java?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["var x = 5;", "int x = 5;", "x : int = 5;", "int: x = 5;"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_simple_05",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce qu'une classe en Java?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["Un objet", "Un modèle pour créer des objets", "Une variable", "Une fonction"],
+    "correctChoiceIndex": 1
+  }
+]

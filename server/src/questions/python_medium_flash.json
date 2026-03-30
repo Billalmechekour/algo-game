@@ -1,0 +1,452 @@
+[
+  {
+    "id": "python_medium_flash_01",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'affiche le code suivant?\nx = [1, 2, 3]\nprint(x[1:3])",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "[1, 2]",
+      "[2, 3]",
+      "[1, 2, 3]",
+      "[3]"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_02",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quel est le type retourné par range(5)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "list",
+      "tuple",
+      "range",
+      "set"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_03",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'affiche: print('Hello ' * 2)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Hello  Hello ",
+      "Hello Hello",
+      "2 Hello",
+      "Error"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_04",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle complexite correspond a une recherche lineaire dans un tableau ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_05",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle complexite correspond a une recherche binaire sur un tableau trie ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n log n)",
+      "O(log n)",
+      "O(1)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_06",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, une file (queue) suit quel principe ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "FIFO",
+      "LIFO",
+      "FILO",
+      "Aucun ordre"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_medium_flash_07",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, une pile (stack) suit quel principe ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "FIFO",
+      "FILO",
+      "Aucun ordre",
+      "LIFO"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_medium_flash_08",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, pourquoi une fonction recursive a-t-elle besoin d'un cas de base ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Pour eviter les variables",
+      "Pour trier les tableaux",
+      "Pour arreter la recursion",
+      "Pour accelerer le compilateur"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_09",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, deux boucles imbriquees sur n elements donnent souvent quelle complexite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_10",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle structure est adaptee pour associer cle -> valeur ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Table de hachage / dictionnaire",
+      "Pile",
+      "File",
+      "Tableau fixe"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_medium_flash_11",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel algorithme est le plus adapte pour chercher une valeur dans une collection non triee ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Recherche binaire",
+      "Dijkstra",
+      "Merge sort",
+      "Recherche lineaire"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_medium_flash_12",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel est le principal risque d'une condition de boucle mal ecrite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Suppression de variables",
+      "Aucun risque",
+      "Boucle infinie",
+      "Erreur de compilation garantie"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_13",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel bug represente souvent un probleme de bornes de boucle ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Race condition",
+      "Off-by-one",
+      "Memory leak",
+      "Deadlock"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_14",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, que fait un tri stable ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Conserve l'ordre relatif des elements egaux",
+      "Trie seulement les nombres",
+      "Inverse automatiquement le tableau",
+      "Supprime les doublons"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_medium_flash_15",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle notation de complexite ignore les constantes multiplicatives ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "JSON",
+      "ASCII",
+      "UTF-8",
+      "Big-O"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_medium_flash_16",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle est la complexite moyenne d'un tri par insertion ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_17",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle est la precondition indispensable pour utiliser une recherche binaire ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Aucune precondition",
+      "Le tableau doit etre trie",
+      "Le tableau doit etre vide",
+      "Le tableau doit etre de taille paire"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_18",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel parcours de graphe utilise naturellement une pile (explicite ou implicite) ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "DFS",
+      "BFS",
+      "Dijkstra",
+      "Kruskal"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_medium_flash_19",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel parcours de graphe utilise naturellement une file ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "DFS",
+      "A*",
+      "Bellman-Ford",
+      "BFS"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_medium_flash_20",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, l'acces moyen a une cle dans une table de hachage bien dimensionnee est plutot :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(n^2)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_21",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle structure de donnee est la plus adaptee pour implementer une file de priorite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Pile",
+      "Tas binaire (heap)",
+      "Liste chainee simple",
+      "Tableau non trie"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_22",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel tri repose sur la strategie divide and conquer et combine deux moities triees ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Merge sort",
+      "Bubble sort",
+      "Selection sort",
+      "Insertion sort"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_medium_flash_23",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, si on ajoute un element en fin d'un tableau dynamique, la complexite amortie est generalement :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(1) amorti"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_medium_flash_24",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, parcourir completement une matrice n x n a une complexite en :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_25",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel tri classique est stable par nature (implementation standard) ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Quick sort",
+      "Insertion sort",
+      "Selection sort",
+      "Heap sort"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_26",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle structure est la plus adaptee pour gerer un mecanisme Annuler/Refaire ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Pile (stack)",
+      "File (queue)",
+      "Arbre binaire",
+      "Tableau trie"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "python_medium_flash_27",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, supprimer le premier element d'une liste chainee simplement chainee est en moyenne :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "python_medium_flash_28",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, parcourir une fois un tableau de n elements a une complexite de :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "python_medium_flash_29",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quel type de structure est utilisee par BFS pour gerer les noeuds a visiter ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Table de hachage",
+      "File (queue)",
+      "Pile (stack)",
+      "Tas"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "python_medium_flash_30",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "En Python, quelle est la complexite moyenne du tri a bulles ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n^2)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 0
+  }
+]

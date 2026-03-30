@@ -1,0 +1,452 @@
+[
+  {
+    "id": "java_medium_flash_01",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce qu'un tableau en Java?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Une liste dynamique",
+      "Une collection de taille fixe",
+      "Un objet",
+      "Une classe"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_02",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Quelle est la différence entre ArrayList et Array?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "ArrayList est plus rapide",
+      "Array a une taille fixe",
+      "Pas de différence",
+      "ArrayList ne supporte que les strings"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_03",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'affiche System.out.println(5 + 3)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "8",
+      "5 + 3",
+      "5",
+      "Error"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_04",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle complexite correspond a une recherche lineaire dans un tableau ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_05",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle complexite correspond a une recherche binaire sur un tableau trie ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1)",
+      "O(n)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_06",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, une file (queue) suit quel principe ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "FILO",
+      "Aucun ordre",
+      "FIFO",
+      "LIFO"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_medium_flash_07",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, une pile (stack) suit quel principe ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Aucun ordre",
+      "LIFO",
+      "FIFO",
+      "FILO"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_08",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, pourquoi une fonction recursive a-t-elle besoin d'un cas de base ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Pour arreter la recursion",
+      "Pour accelerer le compilateur",
+      "Pour eviter les variables",
+      "Pour trier les tableaux"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_09",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, deux boucles imbriquees sur n elements donnent souvent quelle complexite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_10",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle structure est adaptee pour associer cle -> valeur ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "File",
+      "Tableau fixe",
+      "Table de hachage / dictionnaire",
+      "Pile"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_medium_flash_11",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel algorithme est le plus adapte pour chercher une valeur dans une collection non triee ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Merge sort",
+      "Recherche lineaire",
+      "Recherche binaire",
+      "Dijkstra"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_12",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel est le principal risque d'une condition de boucle mal ecrite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Boucle infinie",
+      "Erreur de compilation garantie",
+      "Suppression de variables",
+      "Aucun risque"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_13",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel bug represente souvent un probleme de bornes de boucle ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Memory leak",
+      "Deadlock",
+      "Race condition",
+      "Off-by-one"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_14",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, que fait un tri stable ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Inverse automatiquement le tableau",
+      "Supprime les doublons",
+      "Conserve l'ordre relatif des elements egaux",
+      "Trie seulement les nombres"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_medium_flash_15",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle notation de complexite ignore les constantes multiplicatives ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "UTF-8",
+      "Big-O",
+      "JSON",
+      "ASCII"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_16",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle est la complexite moyenne d'un tri par insertion ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n^2)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_17",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle est la precondition indispensable pour utiliser une recherche binaire ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Le tableau doit etre vide",
+      "Le tableau doit etre de taille paire",
+      "Aucune precondition",
+      "Le tableau doit etre trie"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_18",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel parcours de graphe utilise naturellement une pile (explicite ou implicite) ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Dijkstra",
+      "Kruskal",
+      "DFS",
+      "BFS"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_medium_flash_19",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel parcours de graphe utilise naturellement une file ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Bellman-Ford",
+      "BFS",
+      "DFS",
+      "A*"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_20",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, l'acces moyen a une cle dans une table de hachage bien dimensionnee est plutot :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_21",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle structure de donnee est la plus adaptee pour implementer une file de priorite ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Liste chainee simple",
+      "Tableau non trie",
+      "Pile",
+      "Tas binaire (heap)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_22",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel tri repose sur la strategie divide and conquer et combine deux moities triees ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Selection sort",
+      "Insertion sort",
+      "Merge sort",
+      "Bubble sort"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_medium_flash_23",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, si on ajoute un element en fin d'un tableau dynamique, la complexite amortie est generalement :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n^2)",
+      "O(1) amorti",
+      "O(log n)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_24",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, parcourir completement une matrice n x n a une complexite en :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n^2)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_25",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel tri classique est stable par nature (implementation standard) ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Selection sort",
+      "Heap sort",
+      "Quick sort",
+      "Insertion sort"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_26",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle structure est la plus adaptee pour gerer un mecanisme Annuler/Refaire ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Arbre binaire",
+      "Tableau trie",
+      "Pile (stack)",
+      "File (queue)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_medium_flash_27",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, supprimer le premier element d'une liste chainee simplement chainee est en moyenne :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n^2)",
+      "O(1)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_flash_28",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, parcourir une fois un tableau de n elements a une complexite de :",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_flash_29",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel type de structure est utilisee par BFS pour gerer les noeuds a visiter ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "Pile (stack)",
+      "Tas",
+      "Table de hachage",
+      "File (queue)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_medium_flash_30",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle est la complexite moyenne du tri a bulles ?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 2
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "java_hard_flash_01",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce que l'héritage en POO?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Recevoir des propriétés d'une classe",
+      "Créer une instance",
+      "Modifier un objet",
+      "Copier du code"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_02",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce que le polymorphisme?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Plusieurs formes",
+      "Une abstraction",
+      "Une interface",
+      "Une classe abstraite"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_03",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel probleme peut apparaitre avec une recursion trop profonde ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Depassement de pile (stack overflow)",
+      "Tri automatique",
+      "Compression memoire",
+      "Compilation plus rapide"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_04",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, dans quels cas la programmation dynamique est-elle utile ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Aucune boucle",
+      "Seulement les graphes ponderes",
+      "Uniquement les tableaux tries",
+      "Sous-problemes qui se repetent"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_05",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, pour un graphe non pondere, quel algorithme donne un plus court chemin en nombre d'aretes ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Prim",
+      "Kruskal",
+      "BFS",
+      "DFS"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_06",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel algorithme de plus court chemin suppose des poids non negatifs ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Floyd-Warshall",
+      "Dijkstra",
+      "BFS",
+      "Bellman-Ford"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_hard_flash_07",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, la complexite de merge sort est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_08",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, en cas de nombreuses collisions, la recherche dans une table de hachage peut degrader vers :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(1)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_09",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel est l'objectif principal de la memoization ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Compresser les fichiers",
+      "Remplacer les boucles",
+      "Eviter de recalculer des resultats deja obtenus",
+      "Eviter les fonctions"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_10",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, un overflow entier signifie :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Type converti en texte",
+      "Depassement de la plage representable",
+      "Suppression automatique de la variable",
+      "Erreur reseau"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_hard_flash_11",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, une race condition apparait surtout quand :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Plusieurs executions concurrentes modifient la meme donnee",
+      "Un seul thread lit une constante",
+      "Le code ne contient pas de boucle",
+      "Le CPU est lent"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_12",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, deux boucles de tailles n et m donnent en general :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n + m) uniquement",
+      "O(1)",
+      "O(log n)",
+      "O(n * m)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_13",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle strategie divise un probleme en sous-problemes puis combine les resultats ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Random walk",
+      "Greedy sans verification",
+      "Divide and conquer",
+      "Backtracking aveugle"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_14",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, dans un graphe dense, quel parcours est souvent plus gourmand en memoire ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Les deux utilisent toujours la meme memoire",
+      "BFS",
+      "DFS",
+      "Aucun des deux"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_hard_flash_15",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel algorithme de plus court chemin accepte les poids negatifs (sans cycle negatif) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Bellman-Ford",
+      "Dijkstra",
+      "BFS",
+      "Prim"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_16",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle est la complexite au pire cas de quicksort ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_17",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quelle structure est ideale pour gerer les composantes connexes dynamiques (union/find) ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "File",
+      "Tableau 2D",
+      "Disjoint Set Union (Union-Find)",
+      "Pile"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_18",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, l'algorithme de Dijkstra peut echouer si le graphe contient :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Des aretes non orientees",
+      "Des aretes de poids negatifs",
+      "Des sommets isoles",
+      "Des cycles"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_hard_flash_19",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, la memoization en programmation dynamique est une approche :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Top-down avec cache",
+      "Bottom-up sans tableau",
+      "Tri de tableau",
+      "Parcours en largeur"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_20",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, Floyd-Warshall permet principalement de calculer :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un arbre couvrant minimal",
+      "Un tri topologique",
+      "Un parcours en profondeur",
+      "Les plus courts chemins entre toutes les paires de sommets"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_21",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, dans un backtracking efficace, que fait le pruning ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Transforme DFS en BFS",
+      "Remplace la recursion par une boucle for",
+      "Elimine des branches impossibles ou non optimales",
+      "Ajoute des branches aleatoires"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_22",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, pour detecter un cycle dans un graphe oriente, quelle methode est classique ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Recherche binaire",
+      "DFS avec etats de visite (blanc/gris/noir)",
+      "BFS sans tableau de visite",
+      "Tri par selection"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_hard_flash_23",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, un tri topologique est defini uniquement pour quel type de graphe ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Graphe oriente acyclique (DAG)",
+      "Graphe non oriente quelconque",
+      "Graphe avec cycle negatif",
+      "Arbre binaire complet"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_24",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, la complexite temporelle classique de Floyd-Warshall est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(log n)",
+      "O(n^3)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_25",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, dans un graphe avec cycle negatif atteignable, que devient la notion de plus court chemin ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Elle vaut toujours 0",
+      "Elle est identique a BFS",
+      "Elle peut devenir non definie",
+      "Elle reste toujours unique"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_26",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, quel est l'avantage principal du backtracking par rapport a la force brute naive ?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Il trie automatiquement les donnees",
+      "Il elimine des branches inutiles (pruning)",
+      "Il evite toute recursion",
+      "Il garantit O(log n)"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_hard_flash_27",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, si T(n)=2T(n/2)+n, la complexite est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_hard_flash_28",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, un tri topologique est possible uniquement sur :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "Un graphe non oriente",
+      "Un graphe avec cycle negatif",
+      "Une matrice creuse",
+      "Un graphe oriente acyclique (DAG)"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "java_hard_flash_29",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, la suppression du minimum dans un tas binaire a une complexite de :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(n)",
+      "O(n log n)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "java_hard_flash_30",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "En Java, la complexite classique de Bellman-Ford est :",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": [
+      "O(V^2)",
+      "O(V * E)",
+      "O(V + E)",
+      "O(E log V)"
+    ],
+    "correctChoiceIndex": 1
+  }
+]

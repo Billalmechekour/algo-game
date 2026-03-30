@@ -1,0 +1,60 @@
+[
+  {
+    "id": "java_medium_01",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'est-ce qu'un tableau en Java?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["Une liste dynamique", "Une collection de taille fixe", "Un objet", "Une classe"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_02",
+    "type": "CODE",
+    "language": "java",
+    "prompt": "Écrivez une méthode qui retourne le maximum de deux nombres.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "public class Solution {\n    public static int max(int a, int b) {\n        // Votre code ici\n        return 0;\n    }\n}",
+    "tests": [
+      {"input": "max(3, 5)", "expected": "5", "description": "max(3, 5)"},
+      {"input": "max(10, 2)", "expected": "10", "description": "max(10, 2)"},
+      {"input": "max(0, 0)", "expected": "0", "description": "max(0, 0)"}
+    ]
+  },
+  {
+    "id": "java_medium_03",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Quelle est la différence entre ArrayList et Array?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["ArrayList est plus rapide", "Array a une taille fixe", "Pas de différence", "ArrayList ne supporte que les strings"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "java_medium_04",
+    "type": "FLASH",
+    "language": "java",
+    "prompt": "Qu'affiche System.out.println(5 + 3)?",
+    "difficulty": "MEDIUM",
+    "pointsBase": 15,
+    "choices": ["8", "5 + 3", "5", "Error"],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "java_medium_05",
+    "type": "CODE",
+    "language": "java",
+    "prompt": "Écrivez une méthode qui vérifie si un nombre est pair.",
+    "difficulty": "MEDIUM",
+    "pointsBase": 20,
+    "starterCode": "public class Solution {\n    public static boolean isEven(int n) {\n        // Votre code ici\n        return false;\n    }\n}",
+    "tests": [
+      {"input": "isEven(4)", "expected": "true", "description": "4 is even"},
+      {"input": "isEven(3)", "expected": "false", "description": "3 is odd"},
+      {"input": "isEven(0)", "expected": "true", "description": "0 is even"}
+    ]
+  }
+]

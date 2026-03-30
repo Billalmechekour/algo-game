@@ -1,0 +1,56 @@
+[
+  {
+    "id": "py_simple_01",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'affiche le code suivant?\nfor i in range(3):\n    print(i)",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["0 1 2", "1 2 3", "0 1 2 3", "Rien"],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "py_simple_02",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quel est le résultat de: len('Hello')?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["4", "5", "6", "Error"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "py_simple_03",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne la somme de deux nombres.",
+    "difficulty": "SIMPLE",
+    "pointsBase": 15,
+    "starterCode": "def add(a, b):\n    # Votre code ici\n    pass",
+    "tests": [
+      {"input": "add(2, 3)", "expected": "5", "description": "2 + 3"},
+      {"input": "add(0, 0)", "expected": "0", "description": "0 + 0"},
+      {"input": "add(-1, 1)", "expected": "0", "description": "-1 + 1"}
+    ]
+  },
+  {
+    "id": "py_simple_04",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quelle est la bonne syntaxe pour créer une liste en Python?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["list = {1, 2, 3}", "list = [1, 2, 3]", "list = (1, 2, 3)", "list = <1, 2, 3>"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "py_simple_05",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'est-ce qu'une boucle for?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": ["Une boucle conditionnelle", "Une boucle d'itération", "Une fonction", "Un commentaire"],
+    "correctChoiceIndex": 1
+  }
+]

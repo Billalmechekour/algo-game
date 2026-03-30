@@ -1,0 +1,64 @@
+[
+  {
+    "id": "py_hard_01",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne la somme de tous les éléments d'une liste.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "def sum_list(lst):\n    # Votre code ici\n    pass",
+    "tests": [
+      {"input": "sum_list([1, 2, 3])", "expected": "6", "description": "sum([1,2,3])"},
+      {"input": "sum_list([10, 20])", "expected": "30", "description": "sum([10,20])"},
+      {"input": "sum_list([])", "expected": "0", "description": "sum([])"}
+    ]
+  },
+  {
+    "id": "py_hard_02",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Quelle est la complexité temporelle de la recherche binaire?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "py_hard_03",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne le nombre d'occurrences d'une valeur dans une liste.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "def count_occurrences(lst, value):\n    # Votre code ici\n    pass",
+    "tests": [
+      {"input": "count_occurrences([1, 2, 2, 3], 2)", "expected": "2", "description": "count 2's"},
+      {"input": "count_occurrences([1, 1, 1], 1)", "expected": "3", "description": "count 1's"},
+      {"input": "count_occurrences([5], 5)", "expected": "1", "description": "count single"}
+    ]
+  },
+  {
+    "id": "py_hard_04",
+    "type": "FLASH",
+    "language": "python",
+    "prompt": "Qu'est-ce qu'une fonction lambda en Python?",
+    "difficulty": "HARD",
+    "pointsBase": 20,
+    "choices": ["Une constante", "Une fonction anonyme", "Une classe", "Un module"],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "py_hard_05",
+    "type": "CODE",
+    "language": "python",
+    "prompt": "Écrivez une fonction qui retourne True si une liste est triée, False sinon.",
+    "difficulty": "HARD",
+    "pointsBase": 25,
+    "starterCode": "def is_sorted(lst):\n    # Votre code ici\n    pass",
+    "tests": [
+      {"input": "is_sorted([1, 2, 3])", "expected": "True", "description": "sorted"},
+      {"input": "is_sorted([3, 1, 2])", "expected": "False", "description": "unsorted"},
+      {"input": "is_sorted([])", "expected": "True", "description": "empty"}
+    ]
+  }
+]

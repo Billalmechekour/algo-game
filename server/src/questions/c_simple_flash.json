@@ -1,0 +1,452 @@
+[
+  {
+    "id": "c_simple_flash_01",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Quel est l'opérateur pour accéder à la valeur d'un pointeur?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "&",
+      "*",
+      "->",
+      "."
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_02",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Quelle est la fonction pour imprimer en C?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "write()",
+      "print()",
+      "printf()",
+      "echo()"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_03",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Quel est l'opérateur pour obtenir l'adresse d'une variable?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "*",
+      "&",
+      "->",
+      "::"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_04",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "Qu'est-ce qu'un pointeur en C?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Une variable",
+      "Une adresse mémoire",
+      "Un tableau",
+      "Une fonction"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_05",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle instruction affiche du texte dans la console ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "print()",
+      "echo()",
+      "Console.WriteLine(\"Bonjour\");",
+      "printf(\"Bonjour\\n\");"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_06",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle syntaxe correspond a un commentaire sur une ligne ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "<!-- commentaire -->",
+      "' commentaire",
+      "// ceci est un commentaire",
+      "/* commentaire */"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_07",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle valeur represente VRAI ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "None",
+      "1",
+      "false",
+      "0"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_08",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel operateur teste l'egalite entre deux valeurs ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "==",
+      "=",
+      "!=",
+      "=>"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_simple_flash_09",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel operateur calcule le modulo ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "/",
+      "//",
+      "**",
+      "%"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_10",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel operateur logique signifie ET ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "==",
+      "!=",
+      "&&",
+      "||"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_11",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, l'index du premier element d'un tableau/liste est :",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "2",
+      "0",
+      "1",
+      "-1"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_12",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel mot-cle introduit une condition ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "if",
+      "for",
+      "case",
+      "def"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_simple_flash_13",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle boucle est la plus utilisee pour iterer un nombre connu de fois ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "if",
+      "switch",
+      "try",
+      "for"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_14",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle expression convertit une chaine \"42\" en entier ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "float(\"42\")",
+      "parseBool(\"42\")",
+      "atoi(\"42\")",
+      "toString(42)"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_15",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle ecriture incremente x de 1 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "x := x + 1",
+      "x = x + 1",
+      "x =+ 1",
+      "x == x + 1"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_16",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel type est utilise pour manipuler du texte ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "char*",
+      "int",
+      "bool",
+      "void"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_simple_flash_17",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel mot-cle permet de sortir immediatement d'une boucle ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "continue",
+      "return",
+      "stop",
+      "break"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_18",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel mot-cle passe directement a l'iteration suivante d'une boucle ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "next",
+      "redo",
+      "continue",
+      "break"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_19",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel operateur logique signifie OU ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "!=",
+      "||",
+      "&&",
+      "=="
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_20",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quelle structure repete des instructions tant qu'une condition est vraie ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "while",
+      "if",
+      "switch",
+      "class"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_simple_flash_21",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel symbole represente une comparaison \"strictement superieur\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "<",
+      ">=",
+      "==",
+      ">"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_22",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel symbole represente une comparaison \"inferieur ou egal\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      ">=",
+      "!=",
+      "<=",
+      "<"
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_23",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, si l'indexation commence a 0, quel index correspond au 2e element ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "-1",
+      "1",
+      "0",
+      "2"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_24",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel est le resultat de l'expression 5 % 2 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "1",
+      "0",
+      "2",
+      "2.5"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_simple_flash_25",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel mot-cle permet de renvoyer une valeur depuis une fonction ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "break",
+      "continue",
+      "yield",
+      "return"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_26",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel operateur signifie \"different de\" ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "<>",
+      "=>",
+      "!=",
+      "=="
+    ],
+    "correctChoiceIndex": 2
+  },
+  {
+    "id": "c_simple_flash_27",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel est le resultat de 3 * 4 + 1 ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "7",
+      "13",
+      "12",
+      "15"
+    ],
+    "correctChoiceIndex": 1
+  },
+  {
+    "id": "c_simple_flash_28",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, comment appelle-t-on l'erreur liee a un acces hors limites d'un tableau ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "Depassement de limites (out-of-bounds)",
+      "Deadlock",
+      "Race condition",
+      "Garbage collection"
+    ],
+    "correctChoiceIndex": 0
+  },
+  {
+    "id": "c_simple_flash_29",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel mot-cle execute un bloc si la condition est fausse ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      "elif",
+      "while",
+      "case",
+      "else"
+    ],
+    "correctChoiceIndex": 3
+  },
+  {
+    "id": "c_simple_flash_30",
+    "type": "FLASH",
+    "language": "c",
+    "prompt": "En C, quel separateur est utilise entre deux parametres de fonction ?",
+    "difficulty": "SIMPLE",
+    "pointsBase": 10,
+    "choices": [
+      ":",
+      ".",
+      ",",
+      ";"
+    ],
+    "correctChoiceIndex": 2
+  }
+]
