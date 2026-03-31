@@ -42,6 +42,10 @@ export const translations = {
       resumeGame: "Reprendre une partie",
       settingsAria: "Paramètres",
       settingsTitle: "Paramètres",
+      installTipTitle: "Installer l'application",
+      installTipText:
+        "Sur iPhone, appuie sur Partager puis Sur l'écran d'accueil pour installer Algo Game.",
+      installTipClose: "Fermer",
     },
     settings: {
       title: "Paramètres",
@@ -229,6 +233,10 @@ export const translations = {
       resumeGame: "Resume game",
       settingsAria: "Settings",
       settingsTitle: "Settings",
+      installTipTitle: "Install the app",
+      installTipText:
+        "On iPhone, tap Share then Add to Home Screen to install Algo Game.",
+      installTipClose: "Close",
     },
     settings: {
       title: "Settings",

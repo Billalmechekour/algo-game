@@ -256,6 +256,76 @@
   content: none;
 }
 
+.home-install-tip {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(92%, 420px);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1.5px solid rgba(190, 220, 255, 0.75);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(85, 120, 235, 0.9) 0%,
+      rgba(62, 89, 201, 0.92) 100%
+    );
+  box-shadow:
+    0 10px 20px rgba(10, 18, 54, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.32);
+  z-index: 12;
+}
+
+.home-install-tip-title {
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+
+.home-install-tip-text {
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  font-size: 13px;
+  line-height: 1.32;
+  font-weight: 700;
+  color: rgba(238, 247, 255, 0.95);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.32);
+}
+
+.home-install-tip-close {
+  align-self: flex-end;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+  background: linear-gradient(180deg, #5bc169 0%, #3a9f48 100%);
+  box-shadow:
+    0 2px 0 #1f6d2a,
+    0 4px 10px rgba(0, 0, 0, 0.26),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.home-install-tip-close:hover {
+  filter: brightness(1.05);
+}
+
+.home-install-tip-close:active {
+  transform: translateY(1px);
+  box-shadow:
+    0 1px 0 #1f6d2a,
+    0 2px 5px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.32);
+}
+
 @keyframes gradientShift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -1167,6 +1237,26 @@
 }
 
 @media (max-width: 768px) {
+  .home-install-tip {
+    top: 8px;
+    width: min(94%, 360px);
+    padding: 8px 10px;
+    border-radius: 12px;
+  }
+
+  .home-install-tip-title {
+    font-size: 14px;
+  }
+
+  .home-install-tip-text {
+    font-size: 12px;
+  }
+
+  .home-install-tip-close {
+    font-size: 11px;
+    padding: 5px 9px;
+  }
+
   .home-container {
     padding: 10px;
   }
@@ -1295,6 +1385,27 @@
 }
 
 @media (max-width: 480px) {
+  .home-install-tip {
+    top: 7px;
+    width: min(95%, 330px);
+    gap: 5px;
+    padding: 7px 9px;
+    border-radius: 11px;
+  }
+
+  .home-install-tip-title {
+    font-size: 13px;
+  }
+
+  .home-install-tip-text {
+    font-size: 11.5px;
+  }
+
+  .home-install-tip-close {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
   .home-container {
     padding: 8px;
   }

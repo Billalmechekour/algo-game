@@ -1,17 +1,68 @@
+import { useEffect, useState } from "react";
 import heroImage from "../assets/home-hero.png";
 import cupIcon from "../assets/cup.png";
 import joinIcon from "../assets/salon.png";
 import { useLanguage } from "../context/LanguageContext";
 import "../styles/home.css";
 
+const IOS_INSTALL_TIP_DISMISSED_KEY = "algo-ios-install-tip-dismissed-v1";
+
+function isIosDevice() {
+  if (typeof navigator === "undefined") return false;
+  const ua = navigator.userAgent || "";
+  const classicIOS = /iPad|iPhone|iPod/.test(ua);
+  const ipadDesktopMode =
+    navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+  return classicIOS || ipadDesktopMode;
+}
+
+function isStandaloneMode() {
+  if (typeof window === "undefined") return false;
+  const iosStandalone = window.navigator?.standalone === true;
+  const pwaStandalone =
+    typeof window.matchMedia === "function" &&
+    window.matchMedia("(display-mode: standalone)").matches;
+  return iosStandalone || pwaStandalone;
+}
+
 export default function Home({ setScreen, onResumeGame = null, onOpenSettings = null }) {
   const { t } = useLanguage();
+  const [showIosInstallTip, setShowIosInstallTip] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const shouldShowTip =
+      isIosDevice() &&
+      !isStandaloneMode() &&
+      window.localStorage.getItem(IOS_INSTALL_TIP_DISMISSED_KEY) !== "1";
+    setShowIosInstallTip(shouldShowTip);
+  }, []);
+
+  const closeIosInstallTip = () => {
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem(IOS_INSTALL_TIP_DISMISSED_KEY, "1");
+    }
+    setShowIosInstallTip(false);
+  };
 
   return (
     <div className="home-container">
       <div className="home-frame-glow">
         <div className="home-frame">
         <div className="home-background"></div>
+        {showIosInstallTip && (
+          <div className="home-install-tip" role="status" aria-live="polite">
+            <div className="home-install-tip-title">{t("home.installTipTitle")}</div>
+            <div className="home-install-tip-text">{t("home.installTipText")}</div>
+            <button
+              type="button"
+              className="home-install-tip-close"
+              onClick={closeIosInstallTip}
+            >
+              {t("home.installTipClose")}
+            </button>
+          </div>
+        )}
 
         {/* Icônes flottantes des langages */}
         <div className="floating-langs">
