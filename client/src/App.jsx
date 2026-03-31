@@ -50,6 +50,13 @@ function normalizeThemeMode(mode) {
 
 function readLockedScreen() {
   if (typeof window === "undefined" || !window.sessionStorage) return "home";
+
+  // Si l'utilisateur ouvre explicitement /accueil, on force la page d'accueil.
+  const currentPath = (window.location.pathname || "").replace(/\/+$/, "") || "/";
+  if (currentPath === "/accueil" || currentPath === "/") {
+    return "home";
+  }
+
   try {
     const raw = window.sessionStorage.getItem(SCREEN_LOCK_STORAGE_KEY);
     if (!raw) return "home";
