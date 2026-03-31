@@ -65,14 +65,6 @@ function persistAudioSettings(settings) {
   }
 }
 
-function isLikelyChromeBrowser() {
-  if (typeof navigator === "undefined") return false;
-  const ua = navigator.userAgent || "";
-  const isChromeEngine = /Chrome|CriOS/i.test(ua);
-  const isOtherChromiumBrand = /Edg|OPR|Opera/i.test(ua);
-  return isChromeEngine && !isOtherChromiumBrand;
-}
-
 class GameAudioEngine {
   constructor() {
     this.settings = normalizeAudioSettings(readAudioSettings());
@@ -89,7 +81,9 @@ class GameAudioEngine {
     this.generalThemeActive = false;
     this.useMusicFallback = false;
     this.generalPlaybackProbeTimeout = null;
-    this.forceSynthEffects = isLikelyChromeBrowser();
+    // Ne plus forcer les effets synthétiques sur Chrome:
+    // on tente toujours d'abord les vrais fichiers audio, puis fallback si échec.
+    this.forceSynthEffects = false;
     this.winnerAudioElement = null;
     this.fireAudioElement = null;
     this.finalFireworksInterval = null;

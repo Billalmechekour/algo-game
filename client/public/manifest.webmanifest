@@ -1,0 +1,26 @@
+{
+  "name": "Algo Game",
+  "short_name": "Algo Game",
+  "description": "Jeu de quiz algorithmique multijoueur.",
+  "id": "/",
+  "start_url": "/accueil",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1f6f",
+  "theme_color": "#3c3fbd",
+  "icons": [
+    {
+      "src": "/home-hero-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/home-hero-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

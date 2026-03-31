@@ -59,6 +59,7 @@ export default function Level({
   const [showQuitConfirm, setShowQuitConfirm] = useState(false);
   const [quitting, setQuitting] = useState(false);
   const autoSubmittedRef = useRef(false);
+  const serverTickInitializedRef = useRef(false);
   const tenSecondWarningPlayedRef = useRef(false);
   const previousRemainingRef = useRef(null);
   const codeEditorRef = useRef(null);
@@ -77,6 +78,7 @@ export default function Level({
     setRunByQuestion({});
     setFeedbackByQuestion({});
     autoSubmittedRef.current = false;
+    serverTickInitializedRef.current = false;
     tenSecondWarningPlayedRef.current = false;
     previousRemainingRef.current = null;
     latestFlashSelectionRef.current = {
@@ -159,6 +161,7 @@ export default function Level({
   useEffect(() => {
     if (!level || !hasServerTick) return;
     setRemaining(Math.max(0, parsedServerTick));
+    serverTickInitializedRef.current = true;
   }, [level, hasServerTick, parsedServerTick]);
 
   useEffect(() => {
@@ -189,6 +192,7 @@ export default function Level({
   useEffect(() => {
     if (!level || !endsAt || remaining !== 0) return;
     if (autoSubmittedRef.current) return;
+    if (hasServerTick && !serverTickInitializedRef.current) return;
     if (!hasServerTick && endsAt - Date.now() > 0) return;
 
     autoSubmittedRef.current = true;
@@ -247,6 +251,7 @@ export default function Level({
         ...(nextAnswers[question.id] || {}),
         submitted: true,
         submittedAt: Date.now(),
+        manualSubmitted: false,
       };
       changed = true;
     });
@@ -283,6 +288,10 @@ export default function Level({
   const showQuestionNav = totalQuestions > 1;
   const shownIndex = activeIdx + 1;
   const canGoTo = (idx) => idx >= 0 && idx < totalQuestions;
+  const isQuestionManuallySubmitted = (question) => {
+    if (!question?.id) return false;
+    return answers[question.id]?.manualSubmitted === true;
+  };
 
   const me = room?.players?.find((player) => player.socketId === socketId) || null;
   const meName = me?.name || t("common.player");
@@ -687,6 +696,7 @@ export default function Level({
             previousChoiceIndex: Number.isInteger(answerIndex) ? answerIndex : selectedChoiceIndex,
             submitted: true,
             submittedAt: Date.now(),
+            manualSubmitted: true,
           },
         };
         answersRef.current = next;
@@ -713,6 +723,7 @@ export default function Level({
           ...(prev[currentQuestion.id] || {}),
           submitted: true,
           submittedAt: Date.now(),
+          manualSubmitted: true,
         },
       };
       answersRef.current = next;
@@ -871,15 +882,21 @@ export default function Level({
                       <div className="flash-nav-row">
                         {questions.map((question, index) => {
                           const isCurrentQuestion = index === activeIdx;
+                          const isSubmittedQuestion = isQuestionManuallySubmitted(question);
                           return (
                             <button
                               key={question.id || `flash-nav-${index}`}
-                              className={`flash-nav-btn ${isCurrentQuestion ? "is-active" : ""}`}
+                              className={`flash-nav-btn ${isCurrentQuestion ? "is-active" : ""} ${isSubmittedQuestion ? "is-submitted has-check" : ""}`}
                               onClick={() => canGoTo(index) && setActiveIdx(index)}
                             >
-                              {isCurrentQuestion
-                                ? t("level.navQuestionActive", { index: index + 1 })
-                                : t("level.navQuestion", { index: index + 1 })}
+                              <span className="flash-nav-btn-label">
+                                {isCurrentQuestion
+                                  ? t("level.navQuestionActive", { index: index + 1 })
+                                  : t("level.navQuestion", { index: index + 1 })}
+                              </span>
+                              {isSubmittedQuestion ? (
+                                <span className="flash-nav-btn-check" aria-hidden="true">✓</span>
+                              ) : null}
                             </button>
                           );
                         })}
@@ -1003,15 +1020,21 @@ export default function Level({
                       <div className="flash-nav-row">
                         {questions.map((question, index) => {
                           const isCurrentQuestion = index === activeIdx;
+                          const isSubmittedQuestion = isQuestionManuallySubmitted(question);
                           return (
                             <button
                               key={question.id || `code-nav-${index}`}
-                              className={`flash-nav-btn ${isCurrentQuestion ? "is-active" : ""}`}
+                              className={`flash-nav-btn ${isCurrentQuestion ? "is-active" : ""} ${isSubmittedQuestion ? "is-submitted has-check" : ""}`}
                               onClick={() => canGoTo(index) && setActiveIdx(index)}
                             >
-                              {isCurrentQuestion
-                                ? t("level.navQuestionActive", { index: index + 1 })
-                                : t("level.navQuestion", { index: index + 1 })}
+                              <span className="flash-nav-btn-label">
+                                {isCurrentQuestion
+                                  ? t("level.navQuestionActive", { index: index + 1 })
+                                  : t("level.navQuestion", { index: index + 1 })}
+                              </span>
+                              {isSubmittedQuestion ? (
+                                <span className="flash-nav-btn-check" aria-hidden="true">✓</span>
+                              ) : null}
                             </button>
                           );
                         })}

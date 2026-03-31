@@ -12,3 +12,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </LanguageProvider>
   </React.StrictMode>
 );
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch(() => {
+      // Ignore les erreurs d'enregistrement en environnement non supporté.
+    });
+  });
+}
